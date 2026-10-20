@@ -83,30 +83,94 @@ async def detect_crop_disease(
     Receives leaf photograph, runs CNN classifier, and enriches result with
     symptoms, causes, biological control, and chemical treatment from knowledge base.
     """
-    allowed_types = ["image/jpeg", "image/png", "image/webp", "image/jpg"]
-    if file.content_type not in allowed_types:
-        raise HTTPException(status_code=400, detail="Invalid image format. Please upload JPG or PNG leaf image.")
+    try:
+        image_bytes = await file.read()
+        if not image_bytes or len(image_bytes) == 0:
+            raise HTTPException(status_code=400, detail="Uploaded file is empty. Please select a valid leaf photograph.")
 
-    image_bytes = await file.read()
-    if len(image_bytes) == 0:
-        raise HTTPException(status_code=400, detail="Uploaded file is empty.")
+        # Robust image verification using PIL
+        try:
+            test_img = Image.open(io.BytesIO(image_bytes))
+            test_img.verify()
+        except Exception as img_err:
+            raise HTTPException(
+                status_code=400,
+                detail="Unsupported or corrupted image format. Please upload a standard JPG, PNG, or WEBP leaf photo."
+            )
 
-    # 1. Run Deep Learning inference
-    inference_result = detector.predict_image(image_bytes)
+        # 1. Run Deep Learning inference
+        inference_result = detector.predict_image(image_bytes)
 
-    # 2. Enrich with structured agronomic dossier in requested language
-    dossier = rag_agent.get_disease_dossier(
-        crop=inference_result["crop"],
-        disease=inference_result["disease"],
-        language=language
-    )
+        # 2. Enrich with structured agronomic dossier in requested language
+        dossier = rag_agent.get_disease_dossier(
+            crop=inference_result["crop"],
+            disease=inference_result["disease"],
+            language=language
+        )
 
-    return {
-        "status": "success",
-        "detection": inference_result,
-        "advisory": dossier,
-        "language": language
-    }
+        # 3. Provide structured fallback for healthy tissue or newly classified crops
+        if not dossier:
+            is_healthy = "healthy" in inference_result["disease"].lower()
+            crop_name = inference_result["crop"]
+            if is_healthy:
+                dossier = {
+                    "localized_crop": crop_name,
+                    "localized_disease": (
+                        "निरोगी पान (Healthy Foliage)" if language == "mr"
+                        else "स्वस्थ पत्ती (Healthy Leaf)" if language == "hi"
+                        else "ಆರೋಗ್ಯಕರ ಎಲೆ" if language == "kn"
+                        else "Healthy Foliage (No Disease Detected)"
+                    ),
+                    "pathogen": "None (Healthy Tissue)",
+                    "symptoms": (
+                        f"{crop_name} पिकाच्या पानावर कोणत्याही रोगाचे किंवा कीडीचे लक्षण आढळलेले नाही. पाने सशक्त व हिरवीगार आहेत." if language == "mr"
+                        else f"{crop_name} की पत्ती पर किसी रोग के लक्षण नहीं हैं। फसल स्वस्थ है।" if language == "hi"
+                        else "ಎಲೆಯು ಆರೋಗ್ಯಕರವಾಗಿದೆ, ಯಾವುದೇ ರೋಗದ ಲಕ್ಷಣಗಳಿಲ್ಲ." if language == "kn"
+                        else f"No pathological lesions, chlorosis, or necrotic spots detected on {crop_name} foliage."
+                    ),
+                    "causes": (
+                        "अनुकूल हवामान आणि योग्य पोषण व्यवस्थापन." if language == "mr"
+                        else "अनुकूल मौसम व उचित पोषण प्रबंधन।" if language == "hi"
+                        else "ಉತ್ತಮ ನಿರ್ವಹಣೆ." if language == "kn"
+                        else "Optimal micro-climate and balanced crop nutrition."
+                    ),
+                    "biological_control": (
+                        "प्रतिबंधात्मक उपाय म्हणून निंबोळी अर्क (५ मिली/लिटर) किंवा ट्रायकोडर्मा वापरा." if language == "mr"
+                        else "नियमित पोषण बनाए रखें और आवश्यकता पड़ने पर नीम तेल का छिड़काव करें।" if language == "hi"
+                        else "ಬೇವು ಎಣ್ಣೆ ಸಿಂಪಡಿಸಿ." if language == "kn"
+                        else "Maintain regular crop nutrition and prophylactic Neem oil spray (5 ml/L)."
+                    ),
+                    "chemical_control": (
+                        "सध्या कोणत्याही रासायनिक बुरशीनाशकाची किंवा फवारणीची गरज नाही. पीक सुरक्षित आहे." if language == "mr"
+                        else "वर्तमान में किसी रासायनिक कीटनाशक की आवश्यकता नहीं है।" if language == "hi"
+                        else "ಯಾವುದೇ ರಾಸಾಯನಿಕ ಸಿಂಪರಣೆ ಅಗತ್ಯವಿಲ್ಲ." if language == "kn"
+                        else "No chemical fungicide spray required. Crop foliage is in healthy condition."
+                    ),
+                    "sources": ["AgriSense Integrated Pest Management (IPM)"]
+                }
+            else:
+                dossier = {
+                    "localized_crop": crop_name,
+                    "localized_disease": inference_result["disease"],
+                    "pathogen": "Identified by Deep Learning Vision",
+                    "symptoms": f"Visible leaf spots or structural discoloration observed on {crop_name}.",
+                    "causes": "High humidity or temperature fluctuations favoring fungal/bacterial growth.",
+                    "biological_control": "Apply Trichoderma viride or Pseudomonas fluorescens (5g/L) as bio-fungicide.",
+                    "chemical_control": "Apply prophylactic broad-spectrum fungicide (Mancozeb 2.5g/L or Copper Oxychloride 2g/L).",
+                    "sources": ["TNAU Agritech Portal"]
+                }
+
+        return {
+            "status": "success",
+            "detection": inference_result,
+            "advisory": dossier,
+            "language": language
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"[!] Detection endpoint error: {e}")
+        raise HTTPException(status_code=500, detail=f"Image inference error: {str(e)}")
 
 
 @app.get("/api/weather")

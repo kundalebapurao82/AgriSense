@@ -322,10 +322,17 @@ export default function App() {
         const data = await res.json();
         setDetectionResult(data);
       } else {
-        alert("Detection error: " + res.statusText);
+        let errorMsg = res.statusText;
+        try {
+          const errJson = await res.json();
+          if (errJson && errJson.detail) {
+            errorMsg = errJson.detail;
+          }
+        } catch (_) {}
+        alert(`Detection Error (${res.status}): ${errorMsg || "Could not analyze image. Please ensure the file is a valid leaf photo."}`);
       }
     } catch (e) {
-      alert("Inference server error. Please ensure backend is running.");
+      alert("Inference server error. Please ensure the AgriSense backend service is running on http://127.0.0.1:8000.");
     } finally {
       setAnalyzing(false);
     }
