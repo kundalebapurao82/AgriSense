@@ -1,0 +1,1721 @@
+[
+  {
+    "crop": "Grape",
+    "crop_hi": "अंगूर",
+    "crop_mr": "द्राक्ष",
+    "crop_kn": "ದ್ರಾಕ್ಷಿ",
+    "disease": "Powdery Mildew",
+    "disease_hi": "चूर्णिल आसिता (पाउडरी मिल्ड्यू)",
+    "disease_mr": "भुरी रोग (पावडरी मिल्ड्यू)",
+    "disease_kn": "ಬೂದಿ ರೋಗ (ಪೌಡರಿ ಮಿಲ್ಡ್ಯೂ)",
+    "pathogen": "Erysiphe necator / Uncinula necator",
+    "favorable_weather": {
+      "temp_min": 20,
+      "temp_max": 30,
+      "humidity_min": 65,
+      "rainfall_favorable": false,
+      "description": "Warm, shady, and dry conditions with high atmospheric humidity (20-30°C)."
+    },
+    "primary_causes": {
+      "en": [
+        "Overwintering fungal mycelium in dormant buds activated by warm, dry weather.",
+        "Dense vine canopies restricting sunlight and air circulation."
+      ],
+      "hi": [
+        "सुप्त कलियों में जीवित रहने वाला कवक जो 20-30°C तापमान में तेजी से फैलता है।",
+        "घनी कैनोपी (शाखाओं) के कारण धूप और हवा की कमी।"
+      ],
+      "mr": [
+        "झाडाच्या डोळ्यांमध्ये सुप्तावस्थेत राहणारी बुरशी उबदार हवेत (२०-३०° से.) वेगाने वाढते.",
+        "वेलींची कॅनॉपी दाट झाल्यामुळे सूर्यप्रकाश व खेळती हवा न मिळणे."
+      ],
+      "kn": [
+        "ಬೆಚ್ಚನೆಯ ಹವಾಗುಣದಲ್ಲಿ ಸಕ್ರಿಯವಾಗುವ ಶಿಲೀಂಧ್ರ.",
+        "ಬಳ್ಳಿಗಳು ಹೆಚ್ಚು ದಟ್ಟವಾಗಿರುವುದರಿಂದ ಗಾಳಿ-ಬೆಳಕು ಕಡಿಮೆಯಾಗುವುದು."
+      ]
+    },
+    "symptoms": {
+      "en": "White, powdery patches appear on leaves, blossoms, and young berries. Infected berries stop growing, become hard, crack open, and fail to ripen.",
+      "hi": "पत्तियों, फूलों और छोटे दानों पर सफेद चूर्ण (पाउडर) जैसी परत जम जाती है। दाने कड़े होकर फट जाते हैं और पकते नहीं हैं।",
+      "mr": "पानांवर, फुलोऱ्यावर आणि कोवळ्या मण्यांवर पांढऱ्या राखेसारखी बुरशीची पावडर दिसते. मणी टणक होतात, तडकतात आणि सुकतात.",
+      "kn": "ಎಲೆಗಳು ಮತ್ತು ಹಣ್ಣುಗಳ ಮೇಲೆ ಬಿಳಿ ಬೂದಿಯಂತಹ ಪದರ. ಹಣ್ಣುಗಳು ಒಡೆದು ಹಾಳಾಗುತ್ತವೆ."
+    },
+    "causes": {
+      "en": "Fungus overwintering in dormant buds and spreading through wind currents during warm, dry periods with moderate humidity.",
+      "hi": "हवा के माध्यम से फैलने वाले बीजाणु तथा बंद कैनोपी में छाया व आर्द्रता का वातावरण।",
+      "mr": "वाऱ्यातून पसरणाऱ्या बुरशीच्या बीजाणूंमुळे आणि बागेत सूर्यप्रकाश कमी असल्यामुळे हा रोग वाढतो.",
+      "kn": "ಗಾಳಿಯಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರದ ಬೀಜಕಗಳು."
+    },
+    "prevention": {
+      "en": "Canopy thinning to permit sunlight penetration; prune infected canes during foundation pruning; avoid water stress.",
+      "hi": "छतरी प्रबंधन और पत्तियों की छंटाई करें ताकि धूप और हवा पहुंचे; संक्रमित शाखाएं काटें।",
+      "mr": "कॅनॉपी मॅनेजमेंट करा, जास्तीची पाने काढून सूर्यप्रकाश व खेळती हवा राखा; छाटणी वेळी रोगट काड्या नष्ट करा.",
+      "kn": "ಗಿಡಗಳಿಗೆ ಸರಿಯಾದ ಗಾಳಿ-ಬೆಳಕು ಸಿಗುವಂತೆ ಕತ್ತರಿಸುವುದು."
+    },
+    "control": {
+      "biological": "Spray Ampelomyces quisqualis (AQ10 biofungicide @ 5g/L) or potassium bicarbonate (5 g/L) or neem seed kernel extract (NSKE 5%).",
+      "chemical": "Spray wettable sulphur 80% WP @ 2.5 g/L or Penconazole 10% EC (Topas @ 0.5 ml/L) or Difenoconazole @ 0.5 ml/L or Hexaconazole @ 1 ml/L.",
+      "en_summary": "Dust or spray wettable sulphur (2.5 g/L) or Penconazole (0.5 ml/L). Bio: Potassium bicarbonate or Ampelomyces quisqualis.",
+      "hi_summary": "सल्फर (गंधक) 80% WP (2.5 ग्राम/लीटर) या पेनकोनाजोल (0.5 मिली/लीटर) का छिड़काव करें।",
+      "mr_summary": "विद्राव्य गंधक (२.५ ग्रॅम/लिटर) किंवा टोपाझ/पेनकोनाझोल (०.५ मिली/लिटर) फवारा. जैविक: पोटॅशियम बायकार्बोनेट (५ ग्रॅम/लिटर).",
+      "kn_summary": "ಗಂಧಕದ ಪುಡಿ (೨.೫ ಗ್ರಾಂ/ಲೀ) ಅಥವಾ ಪೆನ್‌ಕೊನಜೋಲ್ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "Koppert Biological Systems",
+      "NRC Grapes Pune"
+    ]
+  },
+  {
+    "crop": "Grape",
+    "crop_hi": "अंगूर",
+    "crop_mr": "द्राक्ष",
+    "crop_kn": "ದ್ರಾಕ್ಷಿ",
+    "disease": "Downy Mildew",
+    "disease_hi": "मृदुरोमिल आसिता (डाउनी मिल्ड्यू)",
+    "disease_mr": "केवडा / डाउनी मिल्ड्यू",
+    "disease_kn": "ಮೃದುರೋಮ ಬೂದಿ ರೋಗ (ಡೌನಿ ಮಿಲ್ಡ್ಯೂ)",
+    "pathogen": "Plasmopara viticola",
+    "favorable_weather": {
+      "temp_min": 18,
+      "temp_max": 25,
+      "humidity_min": 85,
+      "rainfall_favorable": true,
+      "description": "Continuous wet leaf surface, persistent morning dew, or frequent rains with temperatures 20-25°C."
+    },
+    "primary_causes": {
+      "en": [
+        "Water droplets on leaves persisting for more than 2 hours in cloudy weather.",
+        "Oospores overwintering in fallen leaves activated by seasonal rain showers."
+      ],
+      "hi": [
+        "बादल छाए रहने पर पत्तियों पर 2 घंटे से अधिक समय तक पानी की बूंदों का टिकना।",
+        "जमीन पर गिरी संक्रमित पत्तियों में कवक के बीजाणु जो वर्षा से सक्रिय होते हैं।"
+      ],
+      "mr": [
+        "ढगाळ आणि पावसाळी वातावरणात पानांवर सलग २ तासांपेक्षा जास्त वेळ पाण्याचे थेंब साचणे.",
+        "जमिनीवर गळून पडलेल्या जुन्या पानांमधील बुरशीचे बीजाणू पावसाच्या पाण्याने वेगाने वाढणे."
+      ],
+      "kn": [
+        "ಎಲೆಗಳ ಮೇಲೆ ನೀರು ದೀರ್ಘಕಾಲ ನಿಲ್ಲುವುದು ಮತ್ತು ಮಳೆಯ ವಾತಾವರಣ.",
+        "ಮಣ್ಣಿನಲ್ಲಿ ಬಿದ್ದ ಹಳೆಯ ಎಲೆಗಳಲ್ಲಿರುವ ಶಿಲೀಂಧ್ರ."
+      ]
+    },
+    "symptoms": {
+      "en": "Translucent yellowish 'oil-spots' on upper leaf surface, followed by dense white downy cottony growth on lower leaf surface. Infected flower clusters and small berries dry up and turn brown.",
+      "hi": "पत्तियों की ऊपरी सतह पर तेल के धब्बों जैसे पीले निशान और निचली सतह पर सफेद रुई जैसी फफूंद। फल सूखकर भूरे हो जाते हैं।",
+      "mr": "पानांच्या वरच्या भागावर पिवळसर तेलासारखे डाग (ऑईल स्पॉट्स) पडतात आणि पाठीमागच्या बाजूला पांढरी कापसासारखी बुरशी वाढते. घडातील मणी काळे पडून वाळतात.",
+      "kn": "ಎಲೆಯ ಮೇಲ್ಭಾಗದಲ್ಲಿ ಎಣ್ಣೆಯಂತಹ ಕಲೆಗಳು ಮತ್ತು ಕೆಳಭಾಗದಲ್ಲಿ ಬಿಳಿ ಹತ್ತಿಯಂತಹ ಶಿಲೀಂಧ್ರ."
+    },
+    "causes": {
+      "en": "Plasmopara viticola zoospores swimming in free moisture on green vine tissues.",
+      "hi": "पत्तियों पर ठहरे हुए पानी की बूंदों में तैरकर संक्रमण फैलाने वाले बीजाणु।",
+      "mr": "पानाच्या पृष्ठभागावरील ओलाव्यात पोहणारे प्लॅस्मोपारा बुरशीचे बीजाणू.",
+      "kn": "ಎಲೆಗಳ ಮೇಲಿನ ತೇವಾಂಶದಲ್ಲಿ ಹರಡುವ ರೋಗಾಣು."
+    },
+    "prevention": {
+      "en": "Remove and burn fallen dead leaves; prune bottom shoots to keep canopy 45 cm above soil; ensure good drainage.",
+      "hi": "जमीन पर गिरी सूखी पत्तियां जलाएं; नीचे की टहनियां काटें; जल निकासी ठीक रखें।",
+      "mr": "गळलेली रोगट पाने वेचून नष्ट करा; वेलीच्या तळाकडील फुटी काढून कॅनॉपी जमिनीपासून वर ठेवा; शेतात पाणी साचू देऊ नका.",
+      "kn": "ಉದುರಿದ ಎಲೆಗಳನ್ನು ನಾಶಪಡಿಸಿ, ಜಮೀನಿನಲ್ಲಿ ನೀರು ನಿಲ್ಲದಂತೆ ಮಾಡಿ."
+    },
+    "control": {
+      "biological": "Prophylactic foliar spray of Trichoderma asperellum or Pseudomonas fluorescens @ 5g/L; apply copper hydroxide.",
+      "chemical": "Spray Bordeaux mixture 1% or Copper Oxychloride 50% WP @ 2.5 g/L prophylactically; upon first symptom apply Metalaxyl + Mancozeb (Ridomil MZ @ 2g/L) or Dimethomorph 50% WP @ 1g/L or Mandipropamid @ 0.8 ml/L.",
+      "en_summary": "Spray Bordeaux mixture 1% or Ridomil MZ (2g/L) or Dimethomorph (1g/L) before rain spells.",
+      "hi_summary": "बोर्डो मिश्रण 1% या रिडोमिल (2 ग्राम/लीटर) या डाइमेथोमॉर्फ (1 ग्राम/लीटर) का छिड़काव करें।",
+      "mr_summary": "पावसापूर्वी १% बोर्डो मिश्रण किंवा कॉपर ऑक्सिक्लोराईड फवारा. प्रादुर्भाव दिसताच रिडोमिल एमझेड (२ ग्रॅम/लिटर) किंवा डिमेथोमॉर्फ (१ ग्रॅम/लिटर) फवारा.",
+      "kn_summary": "ಬೋರ್ಡೋ ದ್ರಾವಣ ೧% ಅಥವಾ ರಿಡೋಮಿಲ್ (೨ ಗ್ರಾಂ/ಲೀ) ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "Koppert Disease Control",
+      "ICAR Extension"
+    ]
+  },
+  {
+    "crop": "Grape",
+    "crop_hi": "अंगूर",
+    "crop_mr": "द्राक्ष",
+    "crop_kn": "ದ್ರಾಕ್ಷಿ",
+    "disease": "Anthracnose (Bird's Eye Rot)",
+    "disease_hi": "एंथ्रेक्नोज (पक्षी की आंख सड़न)",
+    "disease_mr": "करपा / काळा डाग (एंथ्रॅकनोज)",
+    "disease_kn": "ಕಪ್ಪು ಕಲೆ ರೋಗ (ಆಂಥ್ರಾಕ್ನೋಸ್)",
+    "pathogen": "Elsinoe ampelina / Gloeosporium ampelophagum",
+    "favorable_weather": {
+      "temp_min": 22,
+      "temp_max": 32,
+      "humidity_min": 80,
+      "rainfall_favorable": true,
+      "description": "Warm, wet weather during bud break and shoot growth."
+    },
+    "primary_causes": {
+      "en": [
+        "Fungus surviving in infected vine cankers and old pruned wood.",
+        "Heavy rains during sprouting and young shoot tender development."
+      ],
+      "hi": [
+        "पुरानी संक्रमित काष्ठ शाखाओं में जीवित रहने वाला कवक।",
+        "नई कोपलें फूटते समय तेज बारिश और उच्च आर्द्रता।"
+      ],
+      "mr": [
+        "मागील हंगामातील छाटणी केलेल्या रोगट काड्यांवर व खोडावर बुरशीचे अस्तित्व असणे.",
+        "कोवळी फूट निघताना सतत पडणारा पाऊस आणि दमट हवामान."
+      ],
+      "kn": [
+        "ಹಳೆಯ ರೋಗಪೀಡಿತ ಕೊಂಬೆಗಳಲ್ಲಿ ಶಿಲೀಂಧ್ರ ಉಳಿಯುವುದು.",
+        "ಚಿಗುರು ಬರುವಾಗ ಸುರಿಯುವ ಮಳೆ ಮತ್ತು ತೇವಾಂಶ."
+      ]
+    },
+    "symptoms": {
+      "en": "Sunken circular dark spots on leaves with ash-grey centers and raised reddish-brown margins ('bird's eye'). Berries develop dark crater-like spots.",
+      "hi": "पत्तियों और फलों पर पक्षी की आंख जैसे बीच में भूरे और किनारे से लाल-काले धंसे हुए धब्बे।",
+      "mr": "पानांवर आणि कोवळ्या फुटींवर पक्षाच्या डोळ्यासारखे मध्यभागी राखाडी व काठ लालसर-काळे असणारे खोलगट डाग पडतात. मणी काळे पडून वाळतात.",
+      "kn": "ಎಲೆ ಮತ್ತು ಕಾಯಿಗಳ ಮೇಲೆ ಹಕ್ಕಿಯ ಕಣ್ಣಿನಂತಹ ಕಪ್ಪು-ಬೂದು ಕಲೆಗಳು."
+    },
+    "causes": {
+      "en": "Rain splashes dislodging fungal conidia onto tender leaves and shoots.",
+      "hi": "बारिश की छींटों से कोमल पत्तियों पर फैलने वाले कवक बीजाणु।",
+      "mr": "पावसाचे थेंब उडाल्यामुळे कोवळ्या पानांवर बुरशीचा प्रसार होतो.",
+      "kn": "ಮಳೆಯ ಹನಿಗಳಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Past pruning dead wood removal; apply ferrous sulphate + citric acid post-pruning dormant spray; clean vineyard floor.",
+      "hi": "छांटाई के बाद सूखी लकड़ी जलाएं; फेरस सल्फेट का छिड़काव करें।",
+      "mr": "छाटणीनंतर बागेतील रोगट काड्या जाळा; छाटणीनंतर बोर्डो पेस्ट किंवा फेरस सल्फेट फवारा.",
+      "kn": "ರೋಗಪೀಡಿತ ಕೊಂಬೆಗಳನ್ನು ಕತ್ತರಿಸಿ ನಾಶಮಾಡಿ."
+    },
+    "control": {
+      "biological": "Spray Pseudomonas fluorescens (5g/L) or Bacillus subtilis.",
+      "chemical": "Spray Carbendazim 50% WP @ 1 g/L or Thiophanate Methyl @ 1 g/L or Azoxystrobin + Difenoconazole @ 1 ml/L.",
+      "en_summary": "Spray Carbendazim (1 g/L) or Thiophanate Methyl (1 g/L) or Azoxystrobin.",
+      "hi_summary": "कार्बेन्डाजिम (1 ग्राम/लीटर) या थायोफैनेट मिथाइल का छिड़काव करें।",
+      "mr_summary": "बाविस्टीन/कार्बेंडाझिम (१ ग्रॅम/लिटर) किंवा रोको/थायोफॅनेट मिथाईल (१ ग्रॅम/लिटर) किंवा कस्टोडिया फवारा.",
+      "kn_summary": "ಕಾರ್ಬೆಂಡಾಜಿಮ್ (೧ ಗ್ರಾಂ/ಲೀ) ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "NRC Grapes Pune"
+    ]
+  },
+  {
+    "crop": "Tomato",
+    "crop_hi": "टमाटर",
+    "crop_mr": "टोमॅटो",
+    "crop_kn": "ಟೊಮೆಟೊ",
+    "disease": "Late Blight",
+    "disease_hi": "पछेती झुलसा",
+    "disease_mr": "करपा (लेट ब्लाइट)",
+    "disease_kn": "ಅಂಗಮಾರಿ ರೋಗ (ಲೇಟ್ ಬ್ಲೈಟ್)",
+    "pathogen": "Phytophthora infestans",
+    "favorable_weather": {
+      "temp_min": 10,
+      "temp_max": 24,
+      "humidity_min": 85,
+      "rainfall_favorable": true,
+      "description": "Cool, damp weather with prolonged leaf wetness, fog, or frequent rains."
+    },
+    "primary_causes": {
+      "en": [
+        "Prolonged leaf moisture (>8 hours) during cool, foggy, or rainy days.",
+        "Airborne sporangia carried rapidly across fields by cool moist winds."
+      ],
+      "hi": [
+        "ठंडे, कोहरे या बारिश के मौसम में पत्तियों पर 8 घंटे से अधिक नमी रहना।",
+        "नम हवा के साथ तेजी से फैलने वाले कवक बीजाणु।"
+      ],
+      "mr": [
+        "थंड व दाट धुक्याच्या हवामानात पानांवर सतत ८ तासांपेक्षा जास्त ओलावा राहणे.",
+        "थंड हवेच्या प्रवाहामुळे हवेतून पसरणाऱ्या फायटोप्थोरा बुरशीचे बीजाणू."
+      ],
+      "kn": [
+        "ತಂಪಾದ ಮತ್ತು ಮಂಜಿನ ವಾತಾವರಣದಲ್ಲಿ ಎಲೆಗಳ ಮೇಲೆ ತೇವಾಂಶ ನಿಲ್ಲುವುದು.",
+        "ತಂಪಾದ ಗಾಳಿಯ ಮೂಲಕ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+      ]
+    },
+    "symptoms": {
+      "en": "Water-soaked dark brown or black lesions on leaves and stems. White fluffy fungal growth on leaf undersides in high humidity. Large, greasy, firm brown spots on green fruits.",
+      "hi": "पत्तियों और तनों पर पानी से भीगे गहरे भूरे या काले धब्बे। पत्तियों की निचली सतह पर सफेद रुई जैसा फफूंद। फल भूरे और सख्त हो जाते हैं।",
+      "mr": "पानांवर आणि खोडावर काळपट तपकिरी रंगाचे डाग पडतात. जास्त आर्द्रता असल्यास पानाच्या मागील बाजूस पांढरी बुरशी दिसते. फळांवर खोलगट तपकिरी चट्टे तयार होतात.",
+      "kn": "ಎಲೆಗಳು ಮತ್ತು ಕಾಂಡಗಳ ಮೇಲೆ ಕಂದು ಅಥವಾ ಕಪ್ಪು ಬಣ್ಣದ ಕಲೆಗಳು. ಎಲೆಯ ಕೆಳಗೆ ಬಿಳಿ ಶಿಲೀಂಧ್ರ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ."
+    },
+    "causes": {
+      "en": "Infection caused by Phytophthora infestans oospores spread through wind and rain splashes in cold and humid microclimates.",
+      "hi": "ठंडे और नमी वाले मौसम में हवा और बारिश की बूंदों के माध्यम से फैलने वाले बीजाणु।",
+      "mr": "थंड आणि दमट हवामानात पावसाचे थेंब आणि वाऱ्यामुळे बुरशीचे बीजाणू वेगाने पसरतात.",
+      "kn": "ತಂಪಾದ ಮತ್ತು ಆರ್ದ್ರ ವಾತಾವರಣದಲ್ಲಿ ಗಾಳಿ ಮತ್ತು ಮಳೆಯಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Ensure wide spacing between plants for good air circulation; avoid overhead sprinkler irrigation; practice 3-year crop rotation.",
+      "hi": "पौधों के बीच पर्याप्त दूरी रखें; ऊपर से फव्वारा सिंचाई न करें; फसल चक्र अपनाएं।",
+      "mr": "रोपांमध्ये योग्य अंतर ठेवा; ठिबक सिंचनाचा वापर करा; सोलेनेसी नसलेल्या पिकांची फेरपालट करा.",
+      "kn": "ಗಿಡಗಳ ನಡುವೆ ಸೂಕ್ತ ಅಂತರ ಕಾಪಾಡಿ; ತುಂತುರು ನೀರಾವರಿ ಬಳಸಬೇಡಿ."
+    },
+    "control": {
+      "biological": "Foliar application of Trichoderma viride or Pseudomonas fluorescens (5g/L) at nursery and transplanting; spray copper hydroxide.",
+      "chemical": "Spray Mancozeb 75% WP (2.5 g/L) prophylactically; on initial symptoms, apply Metalaxyl + Mancozeb (Ridomil MZ @ 2g/L) or Cymoxanil + Mancozeb (Curzate @ 2.5g/L) or Dimethomorph @ 1g/L.",
+      "en_summary": "Spray Trichoderma viride as bio-control. In severe conditions, spray Metalaxyl + Mancozeb (2g/L) or Curzate.",
+      "hi_summary": "जैव-नियंत्रण के लिए ट्राइकोडर्मा विरिडी का छिड़काव करें। गंभीर स्थिति में रिडोमिल (2 ग्राम/लीटर) का छिड़काव करें।",
+      "mr_summary": "जैविक नियंत्रणासाठी ट्रायकोडर्मा किंवा स्यूडोमोनास वापरा. तीव्र प्रादुर्भावावर रिडोमिल एमझेड (२ ग्रॅम/लिटर) किंवा क्युरझेट फवारा.",
+      "kn_summary": "ಟ್ರೈಕೋಡರ್ಮಾ ಅಥವಾ ರಿಡೋಮಿಲ್ (೨ ಗ್ರಾಂ/ಲೀ) ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "Koppert Biological Systems"
+    ]
+  },
+  {
+    "crop": "Tomato",
+    "crop_hi": "टमाटर",
+    "crop_mr": "टोमॅटो",
+    "crop_kn": "ಟೊಮೆಟೊ",
+    "disease": "Early Blight",
+    "disease_hi": "अगेती झुलसा",
+    "disease_mr": "अर्ली ब्लाइट (अगोदर येणारा करपा)",
+    "disease_kn": "ಮುಂಗಾರು ಅಂಗಮारी ರೋಗ (ಅರ್ಲಿ ಬ್ಲೈಟ್)",
+    "pathogen": "Alternaria solani",
+    "favorable_weather": {
+      "temp_min": 24,
+      "temp_max": 32,
+      "humidity_min": 75,
+      "rainfall_favorable": false,
+      "description": "Warm, sunny weather alternating with wet spells, dew, or rain showers."
+    },
+    "primary_causes": {
+      "en": [
+        "Alternaria fungus surviving in old solanaceous crop debris in soil.",
+        "Alternating wet and warm dry periods causing spore sporulation."
+      ],
+      "hi": [
+        "मिट्टी में पुरानी फसल के सड़े-गले अवशेषों में फफूंद का जीवित रहना।",
+        "बारिश के बाद अचानक तेज धूप और गर्म मौसम का चक्र।"
+      ],
+      "mr": [
+        "मागील हंगामातील पिकाचे अवशेष मातीत राहिल्यामुळे अल्टरनेरिया बुरशीची वाढ होणे.",
+        "दमट हवामानानंतर अचानक कडक ऊन पडल्यामुळे बुरशीचे बीजाणू सक्रिय होणे."
+      ],
+      "kn": [
+        "ಮಣ್ಣಿನಲ್ಲಿ ಉಳಿದಿರುವ ಹಳೆಯ ಬೆಳೆಯ ತ್ಯಾಜ್ಯಗಳಲ್ಲಿ ಶಿಲೀಂಧ್ರ ಉಳಿಯುವುದು.",
+        "ಮಳೆ ಮತ್ತು ಬಿಸಿಲಿನ ವಾತಾವರಣದ ಬದಲಾವಣೆ."
+      ]
+    },
+    "symptoms": {
+      "en": "Concentric dark brown rings resembling a target-board on older lower leaves. Leaves turn yellow around spots and drop early. Stem collars show sunken lesions.",
+      "hi": "पुरानी पत्तियों पर गोल छल्लों जैसे 'टारगेट बोर्ड' के आकार के गहरे धब्बे। पत्तियों का पीला पड़ना और झुलसकर गिरना।",
+      "mr": "जुन्या खालच्या पानांवर गोलाकार वलयासारखे (टारगेट बोर्डसारखे) तपकिरी डाग पडतात. पाने पिवळी पडून गळतात व खोडावर काळे चट्टे येतात.",
+      "kn": "ಹಳೆಯ ಎಲೆಗಳ ಮೇಲೆ ವೃತ್ತಾಕಾರದ ಕಂದು ಕಲೆಗಳು. ಎಲೆಗಳು ಹಳದಿಯಾಗಿ ಉದುರುತ್ತವೆ."
+    },
+    "causes": {
+      "en": "Alternaria solani fungus transmitted by wind and splashes onto lower canopy.",
+      "hi": "हवा और पानी के छींटों से निचली पत्तियों पर फैलने वाला अल्टरनेरिया कवक।",
+      "mr": "मातीतून उडणारे पाण्याचे थेंब आणि हवेमुळे खालच्या पानांवर प्रादुर्भाव होतो.",
+      "kn": "ಮಣ್ಣಿನಿಂದ ಎಲೆಗಳಿಗೆ ಹಾರುವ ನೀರಿನ ಹನಿಗಳಿಂದ ಹರಡುತ್ತದೆ."
+    },
+    "prevention": {
+      "en": "Silver-black plastic mulching; stake plants to keep leaves off ground; remove infected lower leaves.",
+      "hi": "मल्चिंग करें ताकि मिट्टी पत्तियों पर न उछले; पौधों को सहारा दें; निचली पत्तियां हटाएं।",
+      "mr": "सिल्व्हर-ब्लॅक मल्चिंग पेपर वापरा; झाडांना बांबूचा आधार द्या; खालची बाधित पाने तोडून नष्ट करा.",
+      "kn": "ಮಲ್ಚಿಂಗ್ ಬಳಸಿ; ಸೋಂಕಿತ ಕೆಳಗಿನ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ."
+    },
+    "control": {
+      "biological": "Apply Bacillus subtilis or Ampelomyces quisqualis; soil incorporation of neem cake @ 250 kg/ha.",
+      "chemical": "Spray Mancozeb @ 2 g/L or Azoxystrobin 23% SC @ 1 ml/L or Difenoconazole 25% EC @ 0.5 ml/L.",
+      "en_summary": "Spray Mancozeb 75 WP (2g/L) or Difenoconazole (0.5 ml/L) at 10-14 day intervals.",
+      "hi_summary": "मैंकोजेब (2 ग्राम/लीटर) या डाइफेनोकोनाजोल (0.5 मिली/लीटर) का छिड़काव करें।",
+      "mr_summary": "मँकोझेब (२ ग्रॅम/लिटर) किंवा स्कोअर/डिफेनोकोनाझोल (०.५ मिली/लिटर) फवारा.",
+      "kn_summary": "ಮ್ಯಾಂಕೋಜೆಬ್ (೨ ಗ್ರಾಂ/ಲೀ) ಅಥವಾ ಡೈಫೆನೊಕೊನಜೋಲ್ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "Koppert Biological Systems"
+    ]
+  },
+  {
+    "crop": "Tomato",
+    "crop_hi": "टमाटर",
+    "crop_mr": "टोमॅटो",
+    "crop_kn": "ಟೊಮೆಟೊ",
+    "disease": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+    "disease_hi": "टमाटर का पर्ण कुंचन विषाणु (लीफ कर्ल)",
+    "disease_mr": "टोमॅटोवरील पर्णगुच्छ / चुरडा-मुरडा (लीफ कर्ल)",
+    "disease_kn": "ಟೊಮೆಟೊ ಎಲೆ ಮುರುಟು ರೋಗ",
+    "pathogen": "Tomato Yellow Leaf Curl Begomovirus (TYLCV)",
+    "favorable_weather": {
+      "temp_min": 25,
+      "temp_max": 38,
+      "humidity_min": 40,
+      "rainfall_favorable": false,
+      "description": "Hot, dry seasons that promote whitefly multiplication."
+    },
+    "primary_causes": {
+      "en": [
+        "Transmission by Silverleaf Whitefly (Bemisia tabaci) feeding on plant sap.",
+        "Hot and dry weather promoting rapid whitefly breeding and vector migration."
+      ],
+      "hi": [
+        "सफेद मक्खी (बेमिसिया तबासी) द्वारा पौधों का रस चूसते समय वायरस का प्रसार।",
+        "गर्म और शुष्क मौसम जिससे सफेद मक्खियों की संख्या तेजी से बढ़ती है।"
+      ],
+      "mr": [
+        "पांढरी माशी (बेमिसिया टॅबॅसी) पानांतील रस शोषताना या विषाणूचा वेगाने प्रसार करते.",
+        "उष्ण व कोरडे हवामान ज्यामुळे पांढऱ्या माशीची प्रचंड प्रमाणात पैदास होते."
+      ],
+      "kn": [
+        "ಬಿಳಿ ನೊಣದಿಂದ ವೈರಸ್ ಹರಡುವುದು.",
+        "ಬಿಸಿ ಮತ್ತು ಒಣ ಹವೆ ಬಿಳಿ ನೊಣಗಳ ಸಂಖ್ಯೆಯನ್ನು ಹೆಚ್ಚಿಸುವುದು."
+      ]
+    },
+    "symptoms": {
+      "en": "Severe stunting of young shoots, upward curling and cupping of leaflets, yellowing (chlorosis) of leaf margins, and drastic drop in fruit setting.",
+      "hi": "पौधों का बौना रह जाना, पत्तियों का ऊपर की ओर मुड़ना (प्यालेनुमा होना), किनारों का पीला पड़ना और फूल-फल न लगना।",
+      "mr": "झाडांची वाढ खुंटते, पाने वरच्या बाजूने वाटीसारखी गोळा होतात (चुरडा-मुरडा), पानांच्या कडा पिवळ्या पडतात आणि फळधारणा थांबते.",
+      "kn": "ಗಿಡ ಗಿಡ್ಡವಾಗುವುದು, ಎಲೆಗಳು ಮೇಲಕ್ಕೆ ಮುರುಟಿಕೊಳ್ಳುವುದು ಮತ್ತು ಹಳದಿಯಾಗುವುದು."
+    },
+    "causes": {
+      "en": "Plant-to-plant transmission by adult whitefly vector; virus not transmitted by seed or mechanical tools.",
+      "hi": "सफेद मक्खी द्वारा एक पौधे से दूसरे पौधे में फैलना।",
+      "mr": "केवळ पांढऱ्या माशीच्या चावण्यामुळे आणि रस शोषल्यामुळे संपूर्ण शेतात वेगाने पसरणारा विषाणू.",
+      "kn": "ಬಿಳಿ ನೊಣಗಳಿಂದ ಹರಡುವ ವೈರಸ್."
+    },
+    "prevention": {
+      "en": "Install yellow sticky traps (15-20 per acre); use 40-mesh insect-proof netting in nurseries; rogue out infected plants immediately.",
+      "hi": "पीले चिपचिपे कार्ड लगाएं; नर्सरी में 40 मेश नेट का प्रयोग करें; रोगी पौधे उखाड़कर नष्ट करें।",
+      "mr": "एकरमध्ये १५-२० पिवळे चिकट सापळे लावा; रोपवाटिकेत ४० मेश नेट वापरा; बाधित झाडे उपटून जाळा.",
+      "kn": "ಹಳದಿ ಜಿಗುಟು ಬಲೆಗಳನ್ನು ಅಳವಡಿಸಿ, ಸೋಂಕಿತ ಗಿಡಗಳನ್ನು ಕಿತ್ತು ಹಾಕಿ."
+    },
+    "control": {
+      "biological": "Spray neem oil 10,000 ppm @ 2 ml/L or release bio-control predator Chrysoperla carnea @ 10,000/ha; spray Verticillium lecanii.",
+      "chemical": "Spray Diafenthiuron 50% WP @ 1.25 g/L or Acetamiprid 20% SP @ 0.5 g/L or Spiromesifen 22.9% SC @ 1 ml/L to suppress whitefly vector.",
+      "en_summary": "Manage whiteflies using yellow sticky traps and neem oil. Spray Diafenthiuron or Acetamiprid.",
+      "hi_summary": "सफेद मक्खी नियंत्रण के लिए नीम तेल और डायफेंथियूरॉन या एसिटामिप्रिड का छिड़काव करें।",
+      "mr_summary": "पांढऱ्या माशीच्या नियंत्रणासाठी निमार्क (१०,००० ppm) २ मिली/लिटर किंवा डायफेंथियुरॉन (पेगासस १.२५ ग्रॅम/लिटर) फवारा.",
+      "kn_summary": "ಬೇವಿನ ಎಣ್ಣೆ ಅಥವಾ ಅಸಿಟಾಮಿಪ್ರಿಡ್ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "IIHR Bengaluru"
+    ]
+  },
+  {
+    "crop": "Potato",
+    "crop_hi": "आलू",
+    "crop_mr": "बटाटा",
+    "crop_kn": "ಆಲೂಗಡ್ಡೆ",
+    "disease": "Late Blight",
+    "disease_hi": "आलू का पछेती झुलसा",
+    "disease_mr": "बटाट्यावरील लेट ब्लाइट",
+    "disease_kn": "ಆಲೂಗಡ್ಡೆ ಅಂಗಮಾರಿ (ಲೇಟ್ ಬ್ಲೈಟ್)",
+    "pathogen": "Phytophthora infestans",
+    "favorable_weather": {
+      "temp_min": 10,
+      "temp_max": 22,
+      "humidity_min": 90,
+      "rainfall_favorable": true,
+      "description": "Continuous cold temperatures (10-22°C) with RH > 90% and overcast conditions."
+    },
+    "primary_causes": {
+      "en": [
+        "Use of infected seed tubers carrying dormant mycelium.",
+        "Prolonged overcast weather with high humidity (>90%) and morning dew."
+      ],
+      "hi": [
+        "संक्रमित बीज कंदों का उपयोग जिसमें कवक पहले से सुप्त अवस्था में हो।",
+        "लगातार 90% से अधिक आर्द्रता और सुबह की घनी ओस।"
+      ],
+      "mr": [
+        "लागवडीसाठी वापरलेल्या बटाटा बेण्यात बुरशी सुप्तावस्थेत असणे.",
+        "सलग अनेक दिवस ढगाळ हवामान, ९०% पेक्षा जास्त आर्द्रता आणि सकाळचे धुके."
+      ],
+      "kn": [
+        "ರೋಗಪೀಡಿತ ಬೀಜ ಗೆಡ್ಡೆಗಳನ್ನು ಬಿತ್ತನೆಗೆ ಬಳಸುವುದು.",
+        "ಹೆಚ್ಚಿನ ತೇವಾಂಶ ಮತ್ತು ಮಂಜಿನ ವಾತಾವरण."
+      ]
+    },
+    "symptoms": {
+      "en": "Water-soaked patches on tips and margins of leaves, rapidly turning brown-black and rotting. White mildew on leaf undersides in morning dew. Tubers develop rusty brown sunken dry rot.",
+      "hi": "पत्तियों के किनारों पर पानी से भीगे काले-भूरे धब्बे। सुबह की ओस में पत्तियों के नीचे सफेद फफूंद। कंदों पर सूखा सड़न रोग।",
+      "mr": "पानांच्या कडांवर काळपट तपकिरी सडलेले डाग. सकाळी पानाच्या खाली पांढरी बुरशी दिसते. बटाट्याचे कंद आतून तांबूस-तपकिरी होऊन सडतात.",
+      "kn": "ಎಲೆಗಳ ಅಂಚಿನಲ್ಲಿ ಕಪ್ಪು ಕಲೆಗಳು ಮತ್ತು ಗೆಡ್ಡೆ ಕೊಳೆಯುವಿಕೆ."
+    },
+    "causes": {
+      "en": "Infected seed tubers and airborne oospores during moist cold conditions.",
+      "hi": "संक्रमित बीज कंद और नम ठंडे मौसम में बीजाणुओं का फैलाव।",
+      "mr": "रोगट बेणे आणि थंड, ढगाळ हवामानात हवेतून पसरणाऱ्या बुरशीमुळे.",
+      "kn": "ರೋಗಪೀಡಿತ ಬೀಜ ಗೆಡ್ಡೆಗಳಿಂದ ಹರಡುತ್ತದೆ."
+    },
+    "prevention": {
+      "en": "Plant only certified disease-free seed tubers; practice high earthing up to prevent tuber infection; destroy volunteer plants.",
+      "hi": "प्रमाणित रोगमुक्त बीज कंद ही बोएं; कंदों को ढकने के लिए अच्छी मिट्टी चढ़ाएं।",
+      "mr": "प्रमाणित निरोगी बेणे वापरा; बटाट्यांना चांगली भर द्या जेणेकरून कंद उघडे पडणार नाहीत.",
+      "kn": "ದೃಢೀಕೃತ ರೋಗಮುಕ್ತ ಬೀಜಗಳನ್ನು ಬಳಸಿ, ಗೆಡ್ಡೆಗಳಿಗೆ ಮಣ್ಣು ಮುಚ್ಚಿ."
+    },
+    "control": {
+      "biological": "Seed tuber treatment with Trichoderma harzianum @ 10g/kg; spray Bacillus amyloliquefaciens.",
+      "chemical": "Prophylactic spray of Mancozeb 75 WP @ 2.5 g/L. If disease appears, apply Cymoxanil + Mancozeb (Curzate @ 2.5g/L) or Dimethomorph @ 1g/L or Fenamidone + Mancozeb @ 2.5g/L.",
+      "en_summary": "Pre-treat tubers with Trichoderma. Apply Mancozeb (2.5 g/L) prophylactically; Curzate or Dimethomorph if disease emerges.",
+      "hi_summary": "ट्राइकोडर्मा से कंद उपचार करें। मैंकोजेब (2.5 ग्राम/लीटर) का छिड़काव करें; प्रकोप होने पर कर्ज़ेट या डाइमेथोमॉर्फ दें।",
+      "mr_summary": "लागवडीपूर्वी ट्रायकोडर्माची बीजप्रक्रिया करा. प्रतिबंधात्मक मँकोझेब आणि प्रादुर्भाव दिसताच क्युरझेट किंवा डिमेथोमॉर्फ फवारा.",
+      "kn_summary": "ಟ್ರೈಕೋಡರ್ಮಾ ಬೀಜೋಪಚಾರ ಮತ್ತು ಮ್ಯಾಂಕೋಜೆಬ್ ಸಿಂಪಡಣೆ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "CPRI Shimla"
+    ]
+  },
+  {
+    "crop": "Potato",
+    "crop_hi": "आलू",
+    "crop_mr": "बटाटा",
+    "crop_kn": "ಆಲೂಗಡ್ಡೆ",
+    "disease": "Black Scurf (Rhizoctonia)",
+    "disease_hi": "आलू का काला स्कर्फ (राइजोक्टोनिया)",
+    "disease_mr": "बटाट्यावरील काळी खवडे (काळा डाग)",
+    "disease_kn": "ಆಲೂಗಡ್ಡೆ ಕಪ್ಪು ಚಿಪ್ಪು ರೋಗ",
+    "pathogen": "Rhizoctonia solani",
+    "favorable_weather": {
+      "temp_min": 15,
+      "temp_max": 25,
+      "humidity_min": 80,
+      "rainfall_favorable": false,
+      "description": "Cool, wet soil conditions at tuber sprouting stage."
+    },
+    "primary_causes": {
+      "en": [
+        "Hard black fungal sclerotia adhering to the surface of seed tubers.",
+        "Cold and wet soil conditions causing slow sprouting and sprout pruning."
+      ],
+      "hi": [
+        "बीज कंदों की सतह पर चिपके हुए काले रंग के कवक पिंड (स्क्लेरोशिया)।",
+        "बुवाई के समय ठंडी और अत्यधिक गीली मिट्टी।"
+      ],
+      "mr": [
+        "बटाट्याच्या सालावर काळे खवडे (बुरशीचे कण) चिकटलेले असणे.",
+        "पेरणीवेळी माती अतिथंड आणि चिखलयुक्त असणे."
+      ],
+      "kn": [
+        "ಬೀಜ ಗೆಡ್ಡೆಗಳ ಮೇಲೆ ಕಪ್ಪು ಕಲೆಗಳು ಅಂಟಿಕೊಂಡಿರುವುದು.",
+        "ತಣ್ಣನೆಯ ಮತ್ತು ಅತಿಯಾದ ತೇವಾಂಶವುಳ್ಳ ಮಣ್ಣು."
+      ]
+    },
+    "symptoms": {
+      "en": "Hard, black encrustations (dirt that won't wash off) on tuber skin. Emerging sprouts are girdled, rot, or pruned off. Aerial tubers develop in leaf axils.",
+      "hi": "कंदों के छिलके पर काले रंग की खुरदुरी पपड़ी (जो धोने से नहीं छूटती)। अंकुरों का गल जाना और पत्तियों के आधार पर हवाई आलू बनना।",
+      "mr": "बटाट्याच्या सालावर काळे डाग पडतात जे धुतले तरी निघत नाहीत. कोवळे कोंब सडतात व झाडाच्या खोडावर हवेत लहान बटाटे तयार होतात.",
+      "kn": "ಗೆಡ್ಡೆಯ ಮೇಲೆ ತೊಳೆಯಲಾಗದ ಕಪ್ಪು ಕಲೆಗಳು ಮತ್ತು ಕೊಂಬೆಗಳಲ್ಲಿ ಸಣ್ಣ ಗೆಡ್ಡೆಗಳು ಹುಟ್ಟುವುದು."
+    },
+    "causes": {
+      "en": "Soil-borne and seed-borne Rhizoctonia mycelium surviving saprophytically in soil.",
+      "hi": "मिट्टी और बीज में जीवित रहने वाला राइजोक्टोनिया कवक।",
+      "mr": "जमिनीत आणि बेण्यात वर्षानुवर्षे जिवंत राहणारी रायझोक्टोनिया बुरशी.",
+      "kn": "ಮಣ್ಣಿನಲ್ಲಿ ವಾಸಿಸುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Plant only certified greened seed tubers; avoid planting too deep in cold soil; practice crop rotation with cereals.",
+      "hi": "उपचारित बीज ही लगाएं; बीज को अधिक गहराई में न दबाएं; फसलों की अदला-बदली करें।",
+      "mr": "प्रमाणित बेणे वापरा; बटाटे जमिनीत जास्त खोल लावू नका; तृणधान्य पिकांची फेरपालट करा.",
+      "kn": "ಆಳವಾಗಿ ಬಿತ್ತನೆ ಮಾಡಬೇಡಿ, ಬೆಳೆ ಪರಿವರ್ತನೆ ಮಾಡಿ."
+    },
+    "control": {
+      "biological": "Treat seed tubers with Trichoderma viride @ 10g/kg or Pseudomonas fluorescens before cold storage and planting.",
+      "chemical": "Dip seed tubers in Monceren (Pencycuron 250 SC @ 2.5 ml/L) for 10 minutes or spray Azoxystrobin in-furrow @ 1.5 L/ha.",
+      "en_summary": "Tuber treatment with Monceren (Pencycuron @ 2.5 ml/L) or Trichoderma viride.",
+      "hi_summary": "कंदों को मोनोसेरेन (पेन्सीक्यूरॉन 2.5 मिली/लीटर) या ट्राइकोडर्मा से उपचारित करें।",
+      "mr_summary": "लागवडीपूर्वी बेण्यास मोन्सेरेन (पेन्सिक्युरॉन २.५ मिली/लिटर) किंवा ट्रायकोडर्माची प्रक्रिया करा.",
+      "kn_summary": "ಮೊನ್ಸೆರೆನ್ ಅಥವಾ ಟ್ರೈಕೋಡರ್ಮಾದಿಂದ ಬೀಜೋಪಚಾರ ಮಾಡಿ."
+    },
+    "sources": [
+      "CPRI Shimla",
+      "TNAU Agritech Portal"
+    ]
+  },
+  {
+    "crop": "Corn",
+    "crop_hi": "मक्का",
+    "crop_mr": "मका",
+    "crop_kn": "ಮೆಕ್ಕೆಜೋಳ",
+    "disease": "Common Rust",
+    "disease_hi": "सामान्य गेरुई / रतुआ",
+    "disease_mr": "तांबेरा रोग",
+    "disease_kn": "ತುಕ್ಕು ರೋಗ (ರಸ್ಟ್)",
+    "pathogen": "Puccinia sorghi",
+    "favorable_weather": {
+      "temp_min": 16,
+      "temp_max": 25,
+      "humidity_min": 90,
+      "rainfall_favorable": true,
+      "description": "Moderate temperatures (16-25°C) and high relative humidity (above 90%)."
+    },
+    "primary_causes": {
+      "en": [
+        "Airborne urediniospores carried long distances from southern regions by wind currents.",
+        "Continuous leaf wetness for 6-8 hours with mild temperatures (16-25°C)."
+      ],
+      "hi": [
+        "हवा के झोंकों द्वारा लंबी दूरी से उड़कर आने वाले कवक के बीजाणु।",
+        "16-25°C तापमान के साथ पत्तियों पर लगातार 6-8 घंटे तक नमी रहना।"
+      ],
+      "mr": [
+        "वाऱ्याच्या वेगामुळे दूरवरून उडून येणारे पुक्सिनिया बुरशीचे बीजाणू.",
+        "पानांवर सलग ६ ते ८ तास ओलावा राहणे आणि १६-२५° से. दरम्यान तापमान असणे."
+      ],
+      "kn": [
+        "ಗಾಳಿಯ ಮೂಲಕ ದೂರದಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರ ಬೀಜಕಗಳು.",
+        "ಎಲೆಗಳ ಮೇಲೆ ತೇವಾಂಶ ಮತ್ತು ತಂಪಾದ ವಾತಾವರಣ."
+      ]
+    },
+    "symptoms": {
+      "en": "Golden-brown to cinnamon-brown powdery pustules on both upper and lower leaf surfaces. Severe infection leads to leaf chlorosis and premature drying.",
+      "hi": "पत्तियों की दोनों सतहों पर सुनहरे-भूरे से लाल रंग के उभरे हुए दाने (पुस्तिकाएं)। पत्तियां सूख जाती हैं।",
+      "mr": "पानांच्या दोन्ही बाजूंवर तांबूस तपकिरी रंगाचे लहान पुरळ (फोड) दिसतात. पाने लवकर पिवळी पडून वाळतात.",
+      "kn": "ಎಲೆಗಳ ಮೇಲೆ ಕಂದು ಅಥವಾ ಕೆಂಪು ಬಣ್ಣದ ತುಕ್ಕು ಕಲೆಗಳು."
+    },
+    "causes": {
+      "en": "Puccinia sorghi fungal spores carried over long distances by wind currents.",
+      "hi": "हवा द्वारा लंबी दूरी तक ले जाए जाने वाले पक्सीनिया सोरघी के बीजाणु।",
+      "mr": "वाऱ्यातून लांबवर पसरणाऱ्या पुक्सिनिया सोर्गीच्या बीजाणूंमुळे.",
+      "kn": "ಗಾಳಿಯಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Plant resistant hybrid varieties; avoid late planting; maintain balanced NPK nutrition (avoid excessive nitrogen).",
+      "hi": "रोग प्रतिरोधी संकर किस्में बोएं; अत्यधिक नाइट्रोजन उर्वरक के प्रयोग से बचें।",
+      "mr": "रोगप्रतिकारक संकरित वाण लावा; नत्राचा (युरिया) अतिवापर टाळा; पालाशचे योग्य प्रमाण ठेवा.",
+      "kn": "ರೋಗ ನಿರೋಧಕ ತಳಿಗಳನ್ನು ಬಳಸಿ, ಯೂರಿಯಾ ಅತಿಯಾಗಿ ಬಳಸಬೇಡಿ."
+    },
+    "control": {
+      "biological": "Seed treatment with Trichoderma viride @ 4g/kg; spray neem oil (3%).",
+      "chemical": "Spray Mancozeb 75 WP @ 2.5 g/L or Propiconazole 25 EC (Tilt) @ 1 ml/L or Azoxystrobin @ 1 ml/L at first notice of pustules.",
+      "en_summary": "Spray Mancozeb (2.5 g/L) or Propiconazole 25 EC (1 ml/L) upon appearance of rust pustules.",
+      "hi_summary": "मैंकोजेब (2.5 ग्राम/लीटर) या प्रोपिकोनाजोल (1 मिली/लीटर) का छिड़काव करें।",
+      "mr_summary": "मँकोझेब (२.५ ग्रॅम/लिटर) किंवा टिल्ट/प्रोपिकोनाझोल (१ मिली/लिटर) फवारा.",
+      "kn_summary": "ಪ್ರೊಪಿಕೊನಜೋಲ್ (೧ ಮಿಲಿ/ಲೀ) ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "ICAR-IIMR Ludhiana"
+    ]
+  },
+  {
+    "crop": "Corn",
+    "crop_hi": "मक्का",
+    "crop_mr": "मका",
+    "crop_kn": "ಮೆಕ್ಕೆಜೋಳ",
+    "disease": "Northern Leaf Blight",
+    "disease_hi": "उत्तरी पत्ती झुलसा",
+    "disease_mr": "पानावरील करपा (नॉर्दर्न लीफ ब्लाइट)",
+    "disease_kn": "ಉತ್ತರ ಎಲೆ ಕರಕಲು ರೋಗ",
+    "pathogen": "Exserohilum turcicum / Helminthosporium turcicum",
+    "favorable_weather": {
+      "temp_min": 18,
+      "temp_max": 27,
+      "humidity_min": 85,
+      "rainfall_favorable": true,
+      "description": "Moderate temperatures (18-27°C) accompanied by heavy dew and overcast days."
+    },
+    "primary_causes": {
+      "en": [
+        "Overwintering fungal mycelium in unploughed maize crop residues.",
+        "Prolonged morning dew periods and cloudiness during tasseling stage."
+      ],
+      "hi": [
+        "खेत में बचे मक्के के पुराने ठूंठों में फफूंद का जीवित रहना।",
+        "सुबह की ओस और भुट्टा बनते समय लगातार बादलों का रहना।"
+      ],
+      "mr": [
+        "शेतातील मक्याच्या जुन्या धसकटांमध्ये बुरशी जिवंत राहणे.",
+        "कणीस भरताना सकाळी पडणारे धुके आणि सतत ढगाळ वातावरण."
+      ],
+      "kn": [
+        "ಹಳೆಯ ಬೆಳೆಯ ತ್ಯಾಜ್ಯಗಳಲ್ಲಿ ಶಿಲೀಂಧ್ರ ಉಳಿಯುವುದು.",
+        "ಮಂಜು ಮತ್ತು ಮೋಡ ಕವಿದ ವಾತಾವರಣ."
+      ]
+    },
+    "symptoms": {
+      "en": "Long, elliptical cigar-shaped greyish-green or tan lesions (3 to 15 cm long) on leaves. As lesions merge, large areas of foliage burn out and die.",
+      "hi": "पत्तियों पर 3 से 15 सेमी लंबे, सिगार के आकार के भूरे-हरे धब्बे। धीरे-धीरे पूरी पत्तियां झुलसकर सूख जाती हैं।",
+      "mr": "पानांवर सिगारच्या आकाराचे लांबट लंबगोलाकार राखाडी-तपकिरी डाग (३ ते १५ सें.मी.) पडतात. पाने जळून वाळल्यासारखी दिसतात.",
+      "kn": "ಎಲೆಗಳ ಮೇಲೆ ಉದ್ದನೆಯ ಸಿಗಾರ್ ಆಕಾರದ ಕಂದು ಕಲೆಗಳು."
+    },
+    "causes": {
+      "en": "Fungal conidia spread by wind and rain splashes from lower infected leaves upward.",
+      "hi": "हवा और बारिश की बूंदों से निचली पत्तियों से ऊपर की ओर फैलने वाले बीजाणु।",
+      "mr": "पावसाचे थेंब आणि वाऱ्यामुळे खालच्या पानांवरून वरच्या पानांवर बुरशी पसरते.",
+      "kn": "ಗಾಳಿ ಮತ್ತು ಮಳೆಯಿಂದ ಕೆಳಗಿನಿಂದ ಮೇಲಕ್ಕೆ ಹರಡುವ ರೋಗ."
+    },
+    "prevention": {
+      "en": "Deep summer ploughing to bury crop residue; practice 2-year crop rotation; use resistant hybrids.",
+      "hi": "गर्मियों में गहरी जुताई करें; फसल चक्र अपनाएं; प्रतिरोधी किस्में लगाएं।",
+      "mr": "उन्हाळ्यात खोल नांगरट करून जुनी धसकटे गाडून टाका; पिकांची फेरपालट करा.",
+      "kn": "ಬೇಸಿಗೆಯಲ್ಲಿ ಆಳವಾದ ಉಳುಮೆ ಮಾಡಿ."
+    },
+    "control": {
+      "biological": "Seed treatment with Pseudomonas fluorescens @ 10g/kg seed.",
+      "chemical": "Spray Mancozeb 75 WP @ 2.5 g/L or Azoxystrobin + Difenoconazole (Amistar Top @ 1 ml/L) or Carbendazim @ 1 g/L.",
+      "en_summary": "Spray Mancozeb (2.5 g/L) or Amistar Top (1 ml/L) at first symptom sign.",
+      "hi_summary": "मैंकोजेब (2.5 ग्राम/लीटर) या एमिस्टार टॉप (1 मिली/लीटर) का छिड़काव करें।",
+      "mr_summary": "मँकोझेब (२.५ ग्रॅम/लिटर) किंवा ॲमिस्टार टॉप (१ मिली/लिटर) फवारा.",
+      "kn_summary": "ಮ್ಯಾಂಕೋಜೆಬ್ ಅಥವಾ ಅಮಿಸ್ಟಾರ್ ಟಾಪ್ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "ICAR-IIMR"
+    ]
+  },
+  {
+    "crop": "Cotton",
+    "crop_hi": "कपास",
+    "crop_mr": "कापूस",
+    "crop_kn": "ಹತ್ತಿ",
+    "disease": "Bacterial Blight (Black Arm)",
+    "disease_hi": "जीवाणु झुलसा (ब्लैक आर्म)",
+    "disease_mr": "जिवाणूजन्य करपा (दहिया / काळा डाग)",
+    "disease_kn": "ಬ್ಯಾಕ್ಟೀರಿಯಲ್ ಎಲೆ ಕಲೆ ರೋಗ",
+    "pathogen": "Xanthomonas citri pv. malvacearum",
+    "favorable_weather": {
+      "temp_min": 25,
+      "temp_max": 35,
+      "humidity_min": 85,
+      "rainfall_favorable": true,
+      "description": "High temperature with warm rains and high atmospheric humidity."
+    },
+    "primary_causes": {
+      "en": [
+        "Seed-borne bacteria surviving within fuzzy seed coats.",
+        "Warm rain showers and strong winds splashing bacterial ooze across foliage."
+      ],
+      "hi": [
+        "बीज के रोओं में छिपे जीवाणु जो अंकुरण के साथ पौधे को संक्रमित करते हैं।",
+        "गर्म बारिश और तेज हवा से जीवाणुओं का एक पौधे से दूसरे पर फैलना।"
+      ],
+      "mr": [
+        "कपाशीच्या बियाण्यावरील लव आणि बियाण्यात जिवाणू सुप्तावस्थेत असणे.",
+        "उबदार पाऊस आणि जोरदार वाऱ्यामुळे जिवाणू पानांवर वेगाने उडणे."
+      ],
+      "kn": [
+        "ಬೀಜದಲ್ಲಿರುವ ಬ್ಯಾಕ್ಟೀರಿಯಾ.",
+        "ಬೆಚ್ಚನೆಯ ಮಳೆ ಮತ್ತು ಗಾಳಿಯಿಂದ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಹರಡುವುದು."
+      ]
+    },
+    "symptoms": {
+      "en": "Angular water-soaked leaf spots bordered by veinlets, turning dark brown/black. 'Black arm' lesions on branches cause snapping. Water-soaked oily spots on developing bolls.",
+      "hi": "पत्तियों की नसों से घिरे कोणीय पानीदार धब्बे, जो बाद में काले हो जाते हैं। तनों पर 'ब्लैक आर्म' और डेंडों पर काले धब्बे।",
+      "mr": "पानांच्या शिरांमुळे सीमित झालेले कोनीय काळपट डाग. फांद्यांवर काळे चट्टे (ब्लॅक आर्म) पडून फांद्या मोडतात आणि बोंडांवर तेलकट डाग पडतात.",
+      "kn": "ಎಲೆಗಳ ಮೇಲೆ ಕಪ್ಪು ಕೋನೀಯ ಕಲೆಗಳು ಮತ್ತು ಕಾಯಿ ಕೊಳೆಯುವಿಕೆ."
+    },
+    "causes": {
+      "en": "Bacterium seed-borne and survives in crop residue, transmitted by driving rain and irrigation.",
+      "hi": "बीज जनित जीवाणु जो फसल अवशेषों में रहता है और बारिश की बौछारों से फैलता है।",
+      "mr": "बियाणांमधून व पिकाच्या अवशेषांमधून पसरणारा जिवाणू.",
+      "kn": "ಬೀಜ ಮತ್ತು ಮಳೆಯಿಂದ ಹರಡುವ ಬ್ಯಾಕ್ಟೀರಿಯಾ."
+    },
+    "prevention": {
+      "en": "Acid delinting of cotton seed; crop rotation; burning/ploughing under infected stubble.",
+      "hi": "कपास के बीजों की एसिड डीलिंटिंग करें; फसल चक्र अपनाएं।",
+      "mr": "बियाण्याची ऍसिड डीलिंटिंग प्रक्रिया करा; शेतातील जुने अवशेष जाळून नष्ट करा.",
+      "kn": "ಬೀಜ ಸಂಸ್ಕರಣೆ ಮಾಡಿ."
+    },
+    "control": {
+      "biological": "Seed treatment with Pseudomonas fluorescens @ 10g/kg; spray bio-agent Paenibacillus.",
+      "chemical": "Spray Copper Oxychloride 50 WP (2.5 g/L) mixed with Streptocycline (100 mg/L / 1g in 10L water).",
+      "en_summary": "Spray Copper Oxychloride (2.5 g/L) + Streptocycline (1g in 10L) at 15-day intervals.",
+      "hi_summary": "कॉपर ऑक्सीक्लोराइड (2.5 ग्राम) + स्ट्रेप्टोसाइक्लिन (1 ग्राम प्रति 10 लीटर पानी) मिलाकर छिड़कें।",
+      "mr_summary": "कॉपर ऑक्सिक्लोराईड (२.५ ग्रॅम) + स्ट्रेप्टोसायक्लिन (१ ग्रॅम प्रति १० लिटर पाणी) फवारा.",
+      "kn_summary": "ಕಾಪರ್ ಆಕ್ಸಿಕ್ಲೋರೈಡ್ ಮತ್ತು ಸ್ಟ್ರೆಪ್ಟೋಸೈಕ್ಲಿನ್ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "CICR Nagpur"
+    ]
+  },
+  {
+    "crop": "Cotton",
+    "crop_hi": "कपास",
+    "crop_mr": "कापूस",
+    "crop_kn": "ಹತ್ತಿ",
+    "disease": "Grey Mildew (Dahiya Disease)",
+    "disease_hi": "दहिया रोग (ग्रे मिल्ड्यू)",
+    "disease_mr": "दहिया रोग (पांढरा करपा)",
+    "disease_kn": "ಬೂದು ರೋಗ (ದಹಿಯಾ ರೋಗ)",
+    "pathogen": "Ramularia areola",
+    "favorable_weather": {
+      "temp_min": 20,
+      "temp_max": 30,
+      "humidity_min": 80,
+      "rainfall_favorable": false,
+      "description": "Warm days, high relative humidity, and cool nights during boll formation."
+    },
+    "primary_causes": {
+      "en": [
+        "Airborne conidia surviving in cotton stubble from previous season.",
+        "Intermittent showers followed by sunny humid weather causing rapid sporulation."
+      ],
+      "hi": [
+        "पुराने अवशेषों में जीवित कवक जो हवा से फैलता है।",
+        "रुक-रुक कर बारिश और उमस भरा मौसम।"
+      ],
+      "mr": [
+        "मागील हंगामातील पिकाच्या धसकटांवर जिवंत राहणारी बुरशी.",
+        "अधूनमधून पाऊस आणि दमट, उबदार हवामानामुळे बुरशीची पांढरी भुकटी तयार होणे."
+      ],
+      "kn": [
+        "ಹಳೆಯ ಬೆಳೆಯ ತ್ಯಾಜ್ಯಗಳಲ್ಲಿ ಉಳಿದ ಶಿಲೀಂಧ್ರ.",
+        "ಮಳೆ ಮತ್ತು ತೇವಾಂಶದ ವಾತಾವರಣ."
+      ]
+    },
+    "symptoms": {
+      "en": "Angular pale translucent spots on leaves. Lower surface covers with frost-like white powdery mildew growth looking like curd/chalk (Dahiya). Leaves turn red and shed prematurely.",
+      "hi": "पत्तियों की निचली सतह पर दही या चूने जैसी सफेद चूर्ण की परत। पत्तियां लाल होकर समय से पहले गिर जाती हैं।",
+      "mr": "पानांच्या खालच्या बाजूवर दही किंवा चुन्यासारखी पांढरी बुरशी पसरते (दहिया). पाने लालसर पडून अकाली गळतात आणि बोंडांची वाढ थांबते.",
+      "kn": "ಎಲೆಯ ಕೆಳಗೆ ಮೊಸರಿನಂತಹ ಬಿಳಿ ಬೂದಿ ಪದರ. ಎಲೆಗಳು ಕೆಂಪಾಗಿ ಉದುರುತ್ತವೆ."
+    },
+    "causes": {
+      "en": "Ramularia fungal conidia carried by wind in high humidity microclimates.",
+      "hi": "हवा में तैरने वाले रामूलेरिया कवक के बीजाणु।",
+      "mr": "दमट हवेत वेगाने वाढणारे रामुलारिया बुरशीचे बीजाणू.",
+      "kn": "ಗಾಳಿಯಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Wider row spacing (90x60 cm) for air flow; remove lower diseased leaves; avoid dense planting.",
+      "hi": "पंक्तियों के बीच पर्याप्त दूरी रखें; निचली पत्तियां हटाएं।",
+      "mr": "दोन ओळींत योग्य अंतर ठेवा; हवा खेळती राखा; शेतातील जुने अवशेष नष्ट करा.",
+      "kn": "ಸಾಲುಗಳ ನಡುವೆ ಸೂಕ್ತ ಅಂತರವಿರಲಿ."
+    },
+    "control": {
+      "biological": "Spray Ampelomyces quisqualis or neem seed kernel extract (NSKE 5%).",
+      "chemical": "Spray Wettable Sulphur 80 WP @ 2.5 g/L or Carbendazim 50 WP @ 1 g/L or Kresoxim-methyl 44.3 SC @ 1 ml/L.",
+      "en_summary": "Spray Wettable Sulphur (2.5 g/L) or Carbendazim (1 g/L) or Kresoxim-methyl.",
+      "hi_summary": "सल्फर (2.5 ग्राम/लीटर) या कार्बेन्डाजिम (1 ग्राम/लीटर) का छिड़काव करें।",
+      "mr_summary": "विद्राव्य गंधक (२.५ ग्रॅम/लिटर) किंवा कार्बेंडाझिम/बाविस्टीन (१ ग्रॅम/लिटर) फवारा.",
+      "kn_summary": "ಗಂಧಕದ ಪುಡಿ (೨.೫ ಗ್ರಾಂ/ಲೀ) ಅಥವಾ ಕಾರ್ಬೆಂಡಾಜಿಮ್ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "CICR Nagpur",
+      "TNAU Agritech Portal"
+    ]
+  },
+  {
+    "crop": "Soybean",
+    "crop_hi": "सोयाबीन",
+    "crop_mr": "सोयाबीन",
+    "crop_kn": "ಸೋಯಾಬೀನ್",
+    "disease": "Soybean Rust",
+    "disease_hi": "सोयाबीन गेरुई / रतुआ",
+    "disease_mr": "सोयाबीनवरील तांबेरा",
+    "disease_kn": "ಸೋಯಾಬೀನ್ ತುಕ್ಕು ರೋಗ",
+    "pathogen": "Phakopsora pachyrhizi",
+    "favorable_weather": {
+      "temp_min": 18,
+      "temp_max": 28,
+      "humidity_min": 85,
+      "rainfall_favorable": true,
+      "description": "Continuous leaf wetness for 6-8 hours with temperatures between 18-28°C."
+    },
+    "primary_causes": {
+      "en": [
+        "Wind-borne urediniospores travelling long distances during monsoon showers.",
+        "Continuous canopy wetness exceeding 7 hours with temperatures below 28°C."
+      ],
+      "hi": [
+        "मानसून की बारिश में हवा से उड़कर आने वाले कवक बीजाणु।",
+        "पत्तियों पर लगातार 7 घंटे से अधिक पानी का जमाव और 18-28°C तापमान।"
+      ],
+      "mr": [
+        "मान्सूनच्या पावसाळी वाऱ्यासह दूरवरून वेगाने पसरणाऱ्या बुरशीचे बीजाणू.",
+        "झाडांच्या पानांवर सलग ७ तास पाणी टिकणे आणि १८-२८° से. तापमान असणे."
+      ],
+      "kn": [
+        "ಮಳೆಗಾಲದಲ್ಲಿ ಗಾಳಿಯ ಮೂಲಕ ಬರುವ ಶಿಲೀಂಧ್ರ.",
+        "ಎಲೆಗಳ ಮೇಲೆ ತೇವಾಂश ನಿರಂತರವಾಗಿ ಇರುವುದು."
+      ]
+    },
+    "symptoms": {
+      "en": "Tiny, grey-brown pustules on underside of leaves, turning reddish-brown. Massive premature yellowing and defoliation, leading to unfilled pods and severe yield collapse.",
+      "hi": "पत्तियों की निचली सतह पर छोटे भूरे-लाल दानेदार उभार। पत्तियां जल्दी पीली होकर गिर जाती हैं, फलियां नहीं भरतीं।",
+      "mr": "पानांच्या मागच्या बाजूला बारीक तांबूस-तपकिरी पुरळ येतात. पाने पिवळी पडून गळतात व शेंगा पोचट राहतात.",
+      "kn": "ಎಲೆಗಳ ಕೆಳಗೆ ಸಣ್ಣ ಕೆಂಪು ಕಲೆಗಳು ಮತ್ತು ಎಲೆ ಉದುರುವುದು."
+    },
+    "causes": {
+      "en": "Phakopsora pachyrhizi wind-borne urediniospores travelling across regions.",
+      "hi": "हवा से उड़ने वाले बीजाणु जो तेजी से दूर-दराज तक फैलते हैं।",
+      "mr": "वाऱ्यामुळे दूरपर्यंत पसरणाऱ्या बुरशीच्या बीजाणूंमुळे.",
+      "kn": "ಗಾಳಿಯಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Timely early sowing; avoid high plant density; cultivate tolerant varieties like JS-335, Phule Kalyani.",
+      "hi": "समय पर बुवाई करें; अधिक घनी बुवाई न करें; सहनशील किस्मों का चयन करें।",
+      "mr": "वेळेवर पेरणी करा; जास्त दाट पेरणी टाळा; तांबेरा सहनशील वाणांची निवड करा.",
+      "kn": "ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ಬಿತ್ತನೆ ಮಾಡಿ."
+    },
+    "control": {
+      "biological": "Seed dressing with Trichoderma harzianum (5g/kg); spray Verticillium lecanii.",
+      "chemical": "Spray Hexaconazole 5% EC @ 1 ml/L or Propiconazole 25% EC @ 1 ml/L or Tebuconazole @ 1 ml/L at first symptom.",
+      "en_summary": "Spray Hexaconazole (1 ml/L) or Propiconazole (1 ml/L) or Tebuconazole upon initial symptom detection.",
+      "hi_summary": "हेक्साकोनाजोल (1 मिली/लीटर) या प्रोपिकोनाजोल (1 मिली/लीटर) का तुरंत छिड़काव करें।",
+      "mr_summary": "हेक्झाकोनाझोल (१ मिली/लिटर) किंवा प्रोपिकोनाझोल (१ मिली/लिटर) किंवा टेब्युकोनाझोल फवारा.",
+      "kn_summary": "ಹೆಕ್ಸಾಕೊನಜೋಲ್ (೧ ಮಿಲಿ/ಲೀ) ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "ICAR-IISR Indore"
+    ]
+  },
+  {
+    "crop": "Soybean",
+    "crop_hi": "सोयाबीन",
+    "crop_mr": "सोयाबीन",
+    "crop_kn": "ಸೋಯಾಬೀನ್",
+    "disease": "Anthracnose and Pod Blight",
+    "disease_hi": "एंथ्रेक्नोज एवं फली झुलसा",
+    "disease_mr": "सोयाबीनवरील शेंगा व खोड करपा (एंथ्रॅकनोज)",
+    "disease_kn": "ಕಾಯಿ ಮತ್ತು ಎಲೆ ಕರಕಲು ರೋಗ",
+    "pathogen": "Colletotrichum truncatum",
+    "favorable_weather": {
+      "temp_min": 24,
+      "temp_max": 32,
+      "humidity_min": 85,
+      "rainfall_favorable": true,
+      "description": "Warm, humid rainy spells during flowering and pod development."
+    },
+    "primary_causes": {
+      "en": [
+        "Seed-borne mycelium present in low quality uncertified seeds.",
+        "Warm rains during flowering causing fungal infection of young pods."
+      ],
+      "hi": [
+        "अस्वच्छ बीजों में उपस्थित कवक जो अंकुरण के साथ फैलता है।",
+        "फूल आने और फलियां बनते समय तेज बारिश और उच्च उमस।"
+      ],
+      "mr": [
+        "अस्वच्छ आणि अप्रमाणित बियाणांमधून बुरशीचा प्रादुर्भाव होणे.",
+        "फुलोरा आणि शेंगा भरण्याच्या काळात सतत पाऊस व दमट हवामान असणे."
+      ],
+      "kn": [
+        "ಕಳಪೆ ಗುಣಮಟ್ಟದ ಬೀಜಗಳಲ್ಲಿ ಶಿಲೀಂಧ್ರ ಇರುವುದು.",
+        "ಹೂವು ಬಿಡುವಾಗ ಸುರಿಯುವ ಮಳೆ ಮತ್ತು ತೇವಾಂಶ."
+      ]
+    },
+    "symptoms": {
+      "en": "Irregular dark brown lesions on stems, leaves, and pods. Infected pods turn brown, curl prematurely, and produce shrivelled mouldy seeds with black acervuli.",
+      "hi": "तनों, पत्तियों और फलियों पर गहरे भूरे धब्बे। फलियां मुड़ जाती हैं और दाने सिकुड़ जाते हैं।",
+      "mr": "खोड, पाने आणि शेंगांवर काळे-तपकिरी डाग पडतात. शेंगा वाकड्या होतात आणि आतील दाणे सुरकुतलेले व काळे पडतात.",
+      "kn": "ಕಾಂಡ, ಎಲೆ ಮತ್ತು ಕಾಯಿಗಳ ಮೇಲೆ ಕಂದು ಕಲೆಗಳು. ಕಾಯಿಗಳು ಮುರುಟಿಕೊಳ್ಳುತ್ತವೆ."
+    },
+    "causes": {
+      "en": "Seed-borne and debris-borne Colletotrichum fungus activated by rain.",
+      "hi": "बीज और मिट्टी में जीवित रहने वाला कवक।",
+      "mr": "बियाणे आणि जुन्या अवशेषांमधून वाढणारी कोलेटोट्रायकम बुरशी.",
+      "kn": "ಬೀಜದಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Use certified pathogen-free seed; seed treatment before sowing; avoid water stagnation.",
+      "hi": "प्रमाणित बीज का उपयोग करें; बुवाई से पहले बीज उपचार करें।",
+      "mr": "प्रमाणित निरोगी बियाणे वापरा; पेरणीपूर्वी थायरम किंवा कार्बेन्डाझिमची बीजप्रक्रिया करा.",
+      "kn": "ದೃಢೀಕೃತ ಬೀಜಗಳನ್ನು ಬಳಸಿ, ಬೀಜೋಪಚಾರ ಮಾಡಿ."
+    },
+    "control": {
+      "biological": "Seed treatment with Trichoderma viride @ 4g/kg seed.",
+      "chemical": "Spray Carbendazim 12% + Mancozeb 63% WP (SAAF @ 2 g/L) or Azoxystrobin @ 1 ml/L or Tebuconazole @ 1 ml/L.",
+      "en_summary": "Spray Carbendazim + Mancozeb (SAAF @ 2g/L) or Tebuconazole at pod formation stage.",
+      "hi_summary": "साफ (कार्बेन्डाजिम + मैंकोजेब 2 ग्राम/लीटर) या टेबुकोनाजोल का छिड़काव करें।",
+      "mr_summary": "साफ (कार्बेंडाझिम + मँकोझेब २ ग्रॅम/लिटर) किंवा टेब्युकोनाझोल फवारा.",
+      "kn_summary": "ಸಾಫ್ (೨ ಗ್ರಾಂ/ಲೀ) ಅಥವಾ ಟೆಬುಕೊನಜೋಲ್ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "ICAR-IISR Indore",
+      "TNAU Agritech Portal"
+    ]
+  },
+  {
+    "crop": "Sugarcane",
+    "crop_hi": "गन्ना",
+    "crop_mr": "ऊस",
+    "crop_kn": "ಕಬ್ಬು",
+    "disease": "Red Rot",
+    "disease_hi": "लाल सड़न रोग",
+    "disease_mr": "तांब्या किंवा लाल कुजव्या रोग",
+    "disease_kn": "ಕೆಂಪು ಕೊಳೆ ರೋಗ (ರೆಡ್ ರಾಟ್)",
+    "pathogen": "Colletotrichum falcatum",
+    "favorable_weather": {
+      "temp_min": 25,
+      "temp_max": 32,
+      "humidity_min": 85,
+      "rainfall_favorable": true,
+      "description": "High humidity, waterlogging, and continuous monsoon rainfall."
+    },
+    "primary_causes": {
+      "en": [
+        "Use of infected seed cane setts carrying internal fungal mycelium.",
+        "Waterlogged fields and floodwaters carrying conidia between cane stools."
+      ],
+      "hi": [
+        "संक्रमित बीज गंडासों का प्रयोग जिसमें अंदर कवक मौजूद हो।",
+        "खेत में जलभराव और बाढ़ के पानी से बीजाणुओं का फैलाव।"
+      ],
+      "mr": [
+        "लागवडीसाठी वापरलेल्या उसाच्या बेण्यात (कांड्यांमध्ये) बुरशी असणे.",
+        "शेतात पाणी साचून राहणे आणि पाटाच्या पाण्याद्वारे बुरशी पसरणे."
+      ],
+      "kn": [
+        "ರೋಗಪೀಡಿತ ಕಬ್ಬಿನ ತುಂಡುಗಳನ್ನು ಬಿತ್ತನೆಗೆ ಬಳಸುವುದು.",
+        "ಜಮೀನಿನಲ್ಲಿ ನೀರು ನಿಲ್ಲುವುದು."
+      ]
+    },
+    "symptoms": {
+      "en": "Third and fourth leaf show yellowing and drying along midrib. Splitting the cane vertically reveals reddened internal pith with distinct white transverse bands and an alcoholic sour smell.",
+      "hi": "ऊपरी पत्तियां पीली पड़कर सूखने लगती हैं। गन्ने को बीच से चीरने पर अंदर का गूदा लाल दिखता है जिस पर सफेद आड़ी धारियां और शराब जैसी गंध आती है।",
+      "mr": "तिसरे व चौथे पान पिवळे पडून वाळते. ऊस उभा चिरल्यास आतला भाग लाल रंगाचा दिसतो व त्यावर पांढरे पट्टे दिसतात, अल्कोहोलसारखा वास येतो.",
+      "kn": "ಕಬ್ಬನ್ನು ಸೀಳಿದಾಗ ಒಳಗಡೆ ಕೆಂಪು ಬಣ್ಣ ಮತ್ತು ಆಲ್ಕೋಹಾಲ್ ವಾಸನೆ ಬರುತ್ತದೆ."
+    },
+    "causes": {
+      "en": "Infected setts and fungal survival in soil, disseminated through irrigation water.",
+      "hi": "संक्रमित बीज और मिट्टी में बची फफूंद जो सिंचाई के पानी से फैलती है।",
+      "mr": "रोगट बेणे आणि पाण्याद्वारे शेतात पसरणारी बुरशी.",
+      "kn": "ರೋಗಪೀಡಿತ ಬೀಜ ಕಬ್ಬಿನಿಂದ ಬರುತ್ತದೆ."
+    },
+    "prevention": {
+      "en": "Select setts only from disease-free seed nurseries; hot water sett treatment at 52°C for 30 minutes; ensure field drainage.",
+      "hi": "रोगमुक्त नर्सरी से ही बीज चुनें; 52°C गर्म पानी में 30 मिनट तक बीज उपचार करें; जल निकासी की व्यवस्था करें।",
+      "mr": "निरोगी बेणे वापरा; ५२ अंश से. तापमानात ३० मिनिटे उष्णजल प्रक्रिया करा; शेतात पाण्याचा निचरा योग्य ठेवा.",
+      "kn": "ಬಿಸಿ ನೀರಿನ ಬೀಜೋಪಚಾರ ಮಾಡಿ ಮತ್ತು ನೀರು ನಿಲ್ಲದಂತೆ ನೋಡಿಕೊಳ್ಳಿ."
+    },
+    "control": {
+      "biological": "Dipping setts in Trichoderma viride suspension (10g/L) before planting; apply soil bio-agent consortium.",
+      "chemical": "Dip setts in Carbendazim 50% WP (1 g/L) for 15 minutes before planting; drench affected clumps with Carbendazim.",
+      "en_summary": "Dip setts in Carbendazim (1 g/L) or Trichoderma viride before planting; uproot and burn infected stools.",
+      "hi_summary": "बुवाई से पहले कार्बेन्डाजिम (1 ग्राम/लीटर) के घोल में 15 मिनट तक गंडासे डुबोएं; रोगी पौधों को उखाड़कर जलाएं।",
+      "mr_summary": "लागवडीपूर्वी बेणे बाविस्टीन/कार्बेंडाझिम (१ ग्रॅम/लिटर) द्रावणात १५ मिनिटे बुडवून लावा; रोगट बेटे मुळासकट उपटून नष्ट करा.",
+      "kn_summary": "ಕಾರ್ಬೆಂಡಾಜಿಮ್ ದ್ರಾವಣದಲ್ಲಿ ಬೀಜೋಪಚಾರ ಮಾಡಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "ICAR-SBI Coimbatore"
+    ]
+  },
+  {
+    "crop": "Sugarcane",
+    "crop_hi": "गन्ना",
+    "crop_mr": "ऊस",
+    "crop_kn": "ಕಬ್ಬು",
+    "disease": "Sugarcane Smut (Chabuk Kani)",
+    "disease_hi": "गन्ने का कंडुआ रोग (चाबुक कानी)",
+    "disease_mr": "उसावरील चाबूक काणी रोग",
+    "disease_kn": "ಕಬ್ಬಿನ ಕಾಡಿಗೆ ರೋಗ",
+    "pathogen": "Sporisorium scitamineum / Ustilago scitaminea",
+    "favorable_weather": {
+      "temp_min": 25,
+      "temp_max": 35,
+      "humidity_min": 60,
+      "rainfall_favorable": false,
+      "description": "Hot, dry climates with wind that disperse black teliospores."
+    },
+    "primary_causes": {
+      "en": [
+        "Infected buds on seed setts harbouring dormant teliospores.",
+        "Wind currents carrying black powdery chlamydospores from infected whips to healthy buds."
+      ],
+      "hi": [
+        "बीज गंडासों की कलियों में छिपे कवक बीजाणु।",
+        "हवा द्वारा चाबुक जैसी संरचना से उड़कर स्वस्थ गन्नों तक पहुंचने वाले काले बीजाणु।"
+      ],
+      "mr": [
+        "बेण्यावरील डोळ्यांमध्ये काणीच्या बुरशीचे अस्तित्व असणे.",
+        "वाऱ्यामुळे रोगट चाबकासारख्या लांबट भागातून काळी पावडर उडून इतर उसावर पडणे."
+      ],
+      "kn": [
+        "ಬೀಜ ಕಬ್ಬಿನ ಕಣ್ಣುಗಳಲ್ಲಿರುವ ರೋಗಾಣು.",
+        "ಗಾಳಿಯಿಂದ ಹರಡುವ ಕಪ್ಪು ಪುಡಿ."
+      ]
+    },
+    "symptoms": {
+      "en": "Central shoot converts into a long, curved, pencil-thin whip-like structure (whip) covered with a silvery membrane that ruptures to release millions of soot-black powdery spores.",
+      "hi": "पौधे के मुख्य तने से चाबुक जैसी लंबी काली मुड़ी हुई संरचना निकलती है जिस पर काली कालिख जैसा पाउडर होता है।",
+      "mr": "उसाच्या शेंड्यातून चाबकासारखा लांब, काळा, वळलेला दांडा बाहेर पडतो. त्यावर काळ्या राखेसारखी बुरशीची पावडर असते आणि उसाची कांडी बारीक होते.",
+      "kn": "ಕಬ್ಬಿನ ತುದಿಯಿಂದ ಚಾವಟಿಯಂತಹ ಉದ್ದನೆಯ ಕಪ್ಪು ರಚನೆ ಹೊರಬರುತ್ತದೆ."
+    },
+    "causes": {
+      "en": "Systemic infection by Sporisorium scitamineum through lateral buds.",
+      "hi": "कलियों के माध्यम से पौधे के अंदर फैलने वाला कंडुआ कवक।",
+      "mr": "उसाच्या डोळ्यांमधून झाडात शिरून वाढणारी बुरशी.",
+      "kn": "ಕಣ್ಣುಗಳ ಮೂಲಕ ಗಿಡದೊಳಗೆ ಪ್ರವೇಶಿಸುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Carefully bag infected whips in plastic before rogueing to prevent spore drift; do not take ratoon from smutted crop.",
+      "hi": "रोगग्रस्त चाबुक को प्लास्टिक की थैली से ढककर काटें; कंडुआ ग्रसित खेत से पेड़ी न लें।",
+      "mr": "रोगट चाबूक कापण्यापूर्वी प्लास्टिकच्या पिशवीत अलगद बंद करा जेणेकरून काजळी शेतात उडणार नाही; खोडवा पीक घेऊ नका.",
+      "kn": "ರೋಗಪೀಡಿತ ಚಾವಟಿಯನ್ನು ಪ್ಲಾಸ್ಟಿಕ್ ಚೀಲದಲ್ಲಿ ಮುಚ್ಚಿ ಕತ್ತರಿಸಿ."
+    },
+    "control": {
+      "biological": "Dip setts in Trichoderma harzianum (10 g/L) for 30 minutes before planting.",
+      "chemical": "Treat setts with Carbendazim 50 WP @ 1 g/L or Triadimefon @ 1 g/L water for 15 minutes before planting.",
+      "en_summary": "Dip setts in Carbendazim (1g/L) or Triadimefon; rogue out and burn whip-bearing canes.",
+      "hi_summary": "कार्बेन्डाजिम (1 ग्राम/लीटर) के घोल में 15 मिनट तक बीज उपचार करें।",
+      "mr_summary": "लागवडीपूर्वी बेण्यास बाविस्टीन (१ ग्रॅम/लिटर) द्रावणात बुडवा; रोगट बेटे उपटून नष्ट करा.",
+      "kn_summary": "ಕಾರ್ಬೆಂಡಾಜಿಮ್‌ನಲ್ಲಿ ಬೀಜೋಪಚಾರ ಮಾಡಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "ICAR-SBI Coimbatore"
+    ]
+  },
+  {
+    "crop": "Chilli",
+    "crop_hi": "मिर्च",
+    "crop_mr": "मिरची",
+    "crop_kn": "ಮೆಣಸಿನಕಾಯಿ",
+    "disease": "Anthracnose / Fruit Rot (Dieback)",
+    "disease_hi": "एंथ्रेक्नोज / फल सड़न (डाइबैक)",
+    "disease_mr": "फळकुज आणि शेंडेमर (एंथ्रॅकनोज)",
+    "disease_kn": "ಕಾಯಿ ಕೊಳೆ ಮತ್ತು ಕೊಂಬೆ ಒಣಗುವ ರೋಗ",
+    "pathogen": "Colletotrichum capsici",
+    "favorable_weather": {
+      "temp_min": 25,
+      "temp_max": 32,
+      "humidity_min": 80,
+      "rainfall_favorable": true,
+      "description": "Warm, humid conditions with sudden cloudiness and intermittent showers."
+    },
+    "primary_causes": {
+      "en": [
+        "Fungus carried inside infected seeds and crop residue on soil.",
+        "Warm rain showers splashing spores onto ripening fruits and branch tips."
+      ],
+      "hi": [
+        "संक्रमित बीजों और जमीन पर पड़ी पुरानी संक्रमित टहनियों में फफूंद का जीवित रहना।",
+        "पके फलों और टहनियों पर बारिश की बौछारों से बीजाणुओं का फैलाव।"
+      ],
+      "mr": [
+        "बाधित बियाणांमध्ये आणि जमिनीतील जुन्या काडीकचऱ्यात बुरशीचे अस्तित्व असणे.",
+        "उबदार पावसात पाण्याचे थेंब उडून पिकलेल्या मिरच्यांवर व शेंड्यांवर बुरशी पसरणे."
+      ],
+      "kn": [
+        "ಸೋಂಕಿತ ಬೀಜಗಳು ಮತ್ತು ಹಳೆಯ ಬೆಳೆಯ ತ್ಯಾಜ್ಯ.",
+        "ಮಳೆಯ ಹನಿಗಳಿಂದ ಹಣ್ಣುಗಳಿಗೆ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+      ]
+    },
+    "symptoms": {
+      "en": "Small circular sunken black spots with concentric rings of acervuli on ripe fruits. Twigs die from the tip downwards (die-back).",
+      "hi": "पके फलों पर गोल धंसे हुए काले धब्बे। पौधों की टहनियां ऊपर से नीचे की ओर सूखने लगती हैं (डाइबैक)।",
+      "mr": "पिकलेल्या मिरच्यांवर खोलगट काळे गोलाकार डाग पडतात. झाडाच्या शेंड्यापासून फांद्या खाली वाळत जातात (शेंडेमर).",
+      "kn": "ಮೆಣಸಿನಕಾಯಿ ಮೇಲೆ ಕಪ್ಪು ಕಲೆಗಳು ಮತ್ತು ಕೊಂಬೆಗಳು ಮೇಲಿನಿಂದ ಒಣಗುವುದು."
+    },
+    "causes": {
+      "en": "Seed-borne fungus and soil-borne spores activated by warm showers.",
+      "hi": "बीज जनित कवक जो गर्म और नम बारिश में तेजी से बढ़ता है।",
+      "mr": "बियाणांतून व हवेतील आर्द्रतेमुळे वाढणारी बुरशी.",
+      "kn": "ಶಿಲೀಂಧ್ರದಿಂದ ಬರುವ ರೋಗ."
+    },
+    "prevention": {
+      "en": "Use certified pathogen-free seeds; eradicate solanaceous weed hosts; avoid overhead watering.",
+      "hi": "प्रमाणित बीज का उपयोग करें; खरपतवार नष्ट करें; फव्वारा सिंचाई से बचें।",
+      "mr": "निरोगी बियाणे वापरा; शेतातील तण नष्ट करा; पाण्याचा अतिवापर टाळा.",
+      "kn": "ಸ್ವಚ್ಛ ಬೀಜ ಬಳಸಿ."
+    },
+    "control": {
+      "biological": "Seed treatment with Trichoderma viride @ 4g/kg; spray Pseudomonas fluorescens (5g/L).",
+      "chemical": "Spray Azoxystrobin 23% SC @ 1 ml/L or Difenoconazole @ 0.5 ml/L or Copper Oxychloride @ 2.5 g/L.",
+      "en_summary": "Spray Difenoconazole (0.5 ml/L) or Azoxystrobin (1 ml/L) or Copper Oxychloride (2.5 g/L).",
+      "hi_summary": "डाइफेनोकोनाजोल (0.5 मिली/लीटर) या कॉपर ऑक्सीक्लोराइड (2.5 ग्राम/लीटर) का छिड़काव करें।",
+      "mr_summary": "डिफेनोकोनाझोल (०.५ मिली/लिटर) किंवा कॉपर ऑक्सिक्लोराईड (२.५ ग्रॅम/लिटर) फवारा.",
+      "kn_summary": "ಡೈಫೆನೊಕೊನಜೋಲ್ ಅಥವಾ ತಾಮ್ರದ ಆಕ್ಸಿಕ್ಲೋರೈಡ್ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "Koppert Disease Control"
+    ]
+  },
+  {
+    "crop": "Chilli",
+    "crop_hi": "मिर्च",
+    "crop_mr": "मिरची",
+    "crop_kn": "ಮೆಣಸಿನಕಾಯಿ",
+    "disease": "Chilli Leaf Curl (Murda Disease)",
+    "disease_hi": "मिर्च का पर्ण कुंचन (चुरड़ा-मुरड़ा)",
+    "disease_mr": "मिरचीवरील चुरडा-मुरडा (बोकड्या रोग)",
+    "disease_kn": "ಮೆಣಸಿನಕಾಯಿ ಮುರುಟು ರೋಗ (ಬೊಕಡ್ಯಾ)",
+    "pathogen": "Chilli Leaf Curl Virus (ChiLCV) & Mites/Thrips complex",
+    "favorable_weather": {
+      "temp_min": 24,
+      "temp_max": 36,
+      "humidity_min": 50,
+      "rainfall_favorable": false,
+      "description": "Warm, dry spells promoting explosive thrips, mite, and whitefly populations."
+    },
+    "primary_causes": {
+      "en": [
+        "Severe sucking pest pressure (Thrips palmi & Yellow Mites Polyphagotarsonemus).",
+        "Hot, dry periods causing rapid pest reproduction and leaf curling."
+      ],
+      "hi": [
+        "थ्रिप्स (फूलों के कीड़े) और पीली मकड़ी द्वारा रस चूसने से पत्तियों का मुड़ना।",
+        "गर्म व शुष्क मौसम में कीटों का अनियंत्रित फैलाव।"
+      ],
+      "mr": [
+        "फुलकिडे (थ्रिप्स) आणि पिवळी कोळी (माइट्स) पानांतील रस शोषतात.",
+        "कोरडे व उष्ण हवामान ज्यामुळे या रस शोषणाऱ्या किडींची प्रचंड वाढ होते."
+      ],
+      "kn": [
+        "ನುಸಿ ಮತ್ತು ಥ್ರಿಪ್ಸ್ ಕೀಟಗಳು ರಸ ಹೀರುವುದು.",
+        "ಬಿಸಿ ಮತ್ತು ಒಣ ಹವೆ."
+      ]
+    },
+    "symptoms": {
+      "en": "Upward curling of leaf margins (boat-shape) indicates thrips; downward curling (inverted cup) indicates yellow mites. Leaves become thickened, brittle, and plant remains stunted.",
+      "hi": "पत्तियों का ऊपर की ओर मुड़ना (थ्रिप्स) या नीचे की ओर मुड़ना (मकड़ी)। पत्तियां कड़ी व छोटी हो जाती हैं और फल नहीं लगते।",
+      "mr": "पाने वरच्या बाजूने वाटीसारखी वळल्यास थ्रिप्सचा प्रादुर्भाव असतो; पाने खालच्या बाजूने वळल्यास कोळीचा (माइट्स) प्रादुर्भाव असतो. झाड खुंटते आणि बोंडे येत नाहीत.",
+      "kn": "ಎಲೆಗಳು ಮೇಲಕ್ಕೆ ಅಥವಾ ಕೆಳಕ್ಕೆ ಮುರುಟಿಕೊಳ್ಳುವುದು."
+    },
+    "causes": {
+      "en": "Mechanical sap feeding injury by thrips and mites combined with virus transmission.",
+      "hi": "थ्रिप्स और मकड़ी द्वारा पत्तियों से रस चूसना।",
+      "mr": "थ्रिप्स व कोळी किडींच्या प्रादुर्भावामुळे आणि विषाणूच्या संसर्गामुळे.",
+      "kn": "ಕೀಟಗಳು ರಸ ಹೀರುವುದರಿಂದ ಬರುತ್ತದೆ."
+    },
+    "prevention": {
+      "en": "Install blue sticky traps for thrips and yellow traps for whiteflies; raise barrier crops like maize/sorghum around plot.",
+      "hi": "नीले और पीले चिपचिपे ट्रैप लगाएं; खेत के चारों ओर मक्के की बॉर्डर फसल लगाएं।",
+      "mr": "निळे चिकट सापळे (थ्रिप्ससाठी) व पिवळे सापळे लावा; शेताभोवती मका किंवा ज्वारीचे दोन ओळींचे कुंपण घाला.",
+      "kn": "ಬಲೆಗಳನ್ನು ಅಳವಡಿಸಿ, ಗಡಿ ಬೆಳೆಯಾಗಿ ಮೆಕ್ಕೆಜೋಳ ಬೆಳೆಯಿರಿ."
+    },
+    "control": {
+      "biological": "Spray neem oil 10,000 ppm @ 2 ml/L or Lecanicillium lecanii bio-fungicide.",
+      "chemical": "For thrips: Fipronil 5% SC @ 1.5 ml/L or Spinetoram 11.7% SC @ 1 ml/L. For mites: Fenazaquin 10% EC @ 2 ml/L or Spiromesifen @ 1 ml/L.",
+      "en_summary": "Spray Fipronil (1.5 ml/L) for thrips or Spiromesifen (1 ml/L) for mites. Bio: Neem oil 10,000 ppm.",
+      "hi_summary": "थ्रिप्स के लिए फिप्रोनिल (1.5 मिली/लीटर) और मकड़ी के लिए स्पाइरोमेसिफेन का छिड़काव करें।",
+      "mr_summary": "थ्रिप्ससाठी रीजेंट/फिप्रोनिल (१.५ मिली/लिटर) किंवा डेलिगेट फवारा; कोळीसाठी ओबेरॉन/स्पायरोमेसिफेन (१ मिली/लिटर) फवारा.",
+      "kn_summary": "ಫಿಪ್ರೋನಿಲ್ ಅಥವಾ ಸ್ಪೈರೋಮೆಸಿಫೆನ್ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "IIHR Bengaluru"
+    ]
+  },
+  {
+    "crop": "Onion",
+    "crop_hi": "प्याज",
+    "crop_mr": "कांदा",
+    "crop_kn": "ಈರುಳ್ಳಿ",
+    "disease": "Purple Blotch",
+    "disease_hi": "बैंगनी धब्बा रोग (पर्पल ब्लॉच)",
+    "disease_mr": "जांभळा करपा (पर्पल ब्लॉच)",
+    "disease_kn": "ನೇರಳೆ ಕಲೆ ರೋಗ",
+    "pathogen": "Alternaria porri",
+    "favorable_weather": {
+      "temp_min": 21,
+      "temp_max": 30,
+      "humidity_min": 80,
+      "rainfall_favorable": true,
+      "description": "Warm, humid weather with frequent rains or heavy dews."
+    },
+    "primary_causes": {
+      "en": [
+        "Fungus surviving in infected onion crop debris and seed bulbs in storage.",
+        "Thrips feeding injuries creating entry wounds for Alternaria spores during humid weather."
+      ],
+      "hi": [
+        "फसल के पुराने अवशेषों और भंडारित प्याज के कंदों में कवक का रहना।",
+        "थ्रिप्स कीटों द्वारा पत्तियों को खरोंचना जिससे कवक आसानी से प्रवेश करता है।"
+      ],
+      "mr": [
+        "मागील हंगामातील कांद्याची पात आणि बियाणांमध्ये बुरशी शिल्लक असणे.",
+        "थ्रिप्स किडींनी पानांवर ओरखडे पाडल्यामुळे दमट हवेत बुरशी सहज आत शिरते."
+      ],
+      "kn": [
+        "ಹಳೆಯ ಬೆಳೆಯ ತ್ಯಾಜ್ಯ ಮತ್ತು ಥ್ರಿಪ್ಸ್ ಕೀಟಗಳ ಹಾನಿ.",
+        "ಹೆಚ್ಚಿನ ತೇವಾಂಶ ಮತ್ತು ಮಳೆ."
+      ]
+    },
+    "symptoms": {
+      "en": "Small, water-soaked lesions that rapidly enlarge into oval, purplish spots with dark purple concentric rings and yellow borders. Stalks girdle and collapse.",
+      "hi": "पत्तियों पर छोटे पानीदार धब्बे जो बड़े होकर गहरे बैंगनी रंग के हो जाते हैं और उनके चारों ओर पीला घेरा बन जाता है। पत्तियां गिर जाती हैं।",
+      "mr": "कांद्याच्या पाथीवर सुरुवातीला पांढरे चट्टे पडून नंतर ते लंबगोलाकार जांभळट रंगाचे होतात. डागांच्या भोवती पिवळसर कडा असते. मान मऊ पडून पात जमिनीवर कोसळते.",
+      "kn": "ಎಲೆಗಳ ಮೇಲೆ ನೇರಳೆ ಬಣ್ಣದ ಕಲೆಗಳು ಮತ್ತು ಎಲೆಗಳು ಮುರಿದು ಬೀಳುವುದು."
+    },
+    "causes": {
+      "en": "Alternaria porri conidia spread by wind and rain splashes into leaf stomata and wounds.",
+      "hi": "हवा और पानी की बूंदों द्वारा फैलने वाला अल्टरनेरिया कवक।",
+      "mr": "वाऱ्यामुळे आणि पावसाच्या थेंबांमुळे पाथीवर पसरणारी बुरशी.",
+      "kn": "ಗಾಳಿಯಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Plant on raised beds to improve drainage; practice 3-year crop rotation; manage onion thrips strictly.",
+      "hi": "उठी हुई क्यारियों (बेड) पर रोपाई करें; फसल चक्र अपनाएं; थ्रिप्स कीट का नियंत्रण रखें।",
+      "mr": "गादी वाफ्यावर लागवड करा; पिकांची ३ वर्षांची फेरपालट करा; कांद्यावरील थ्रिप्सचे वेळीच नियंत्रण करा.",
+      "kn": "ಏರು ಮಡಿಗಳಲ್ಲಿ ನಾಟಿ ಮಾಡಿ, ಬೆಳೆ ಪರಿವರ್ತನೆ ಮಾಡಿ."
+    },
+    "control": {
+      "biological": "Seedling dip in Trichoderma viride (10 g/L) before transplanting; spray bio-formulation Bacillus subtilis.",
+      "chemical": "Spray Mancozeb 75 WP @ 2.5 g/L or Difenoconazole 25 EC (Score @ 0.5 ml/L) or Tebuconazole + Trifloxystrobin (Nativo @ 0.7 g/L) with sticker (spreader).",
+      "en_summary": "Spray Mancozeb (2.5 g/L) or Nativo (0.7 g/L) or Score (0.5 ml/L) with sticker.",
+      "hi_summary": "मैंकोजेब (2.5 ग्राम/लीटर) या नेटिवो (0.7 ग्राम/लीटर) को स्टीकर के साथ मिलाकर छिड़कें।",
+      "mr_summary": "मँकोझेब (२.५ ग्रॅम/लिटर) किंवा नॅटिव्हो (०.७ ग्रॅम/लिटर) किंवा स्कोअर (०.५ मिली/लिटर) सोबत स्टिकर मिसळून फवारा.",
+      "kn_summary": "ಮ್ಯಾಂಕೋಜೆಬ್ ಅಥವಾ ನೇಟಿವೋ ಜೊತೆಗೆ ಅಂಟನ್ನು ಬೆರೆಸಿ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "DOGR Pune",
+      "TNAU Agritech Portal"
+    ]
+  },
+  {
+    "crop": "Onion",
+    "crop_hi": "प्याज",
+    "crop_mr": "कांदा",
+    "crop_kn": "ಈರುಳ್ಳಿ",
+    "disease": "Stemphylium Leaf Blight",
+    "disease_hi": "स्टेम्फिलियम पत्ती झुलसा",
+    "disease_mr": "स्टेम्फिलियम करपा (पानावरील पांढुरका करपा)",
+    "disease_kn": "ಸ್ಟೆಂಫಿಲಿಯಂ ಎಲೆ ಕರಕಲು ರೋಗ",
+    "pathogen": "Stemphylium vesicarium",
+    "favorable_weather": {
+      "temp_min": 18,
+      "temp_max": 25,
+      "humidity_min": 85,
+      "rainfall_favorable": true,
+      "description": "High relative humidity (85-90%) with long dew periods in winter/rabi seasons."
+    },
+    "primary_causes": {
+      "en": [
+        "Prolonged heavy dew during winter nights providing free water on leaves.",
+        "Fungus living on dead onion leaves and seed crops from previous season."
+      ],
+      "hi": [
+        "सर्दियों में रात के समय भारी ओस पड़ना और पत्तियों पर पानी रुकना।",
+        "खेत में पड़े सूखे पत्तों में कवक का जीवित रहना।"
+      ],
+      "mr": [
+        "हिवाळ्यात रात्री पडणारे दाट धुके आणि पाथीवर सलग अनेक तास ओलावा साचणे.",
+        "मागील हंगामातील कांद्याच्या सुकून पडलेल्या पाथीवर बुरशीचे अस्तित्व असणे."
+      ],
+      "kn": [
+        "ಚಳಿಗಾಲದಲ್ಲಿ ದಟ್ಟವಾದ ಮಂಜು ಮತ್ತು ತೇವಾಂಶ.",
+        "ಹಳೆಯ ಒಣ ಎಲೆಗಳಲ್ಲಿ ಶಿಲೀಂಧ್ರ ಉಳಿಯುವುದು."
+      ]
+    },
+    "symptoms": {
+      "en": "Small, yellow to pale orange flecks that develop into elongated, spindle-shaped light brown lesions. Stems crack and leaves dry from tips downward.",
+      "hi": "पत्तियों पर छोटे पीले से नारंगी धब्बे जो बाद में हल्के भूरे और लंबे हो जाते हैं। पत्तियां ऊपर से नीचे सूखने लगती हैं।",
+      "mr": "पाथीवर सुरुवातीला पिवळसर-नारंगी रंगाचे लहान ठिपके पडतात. नंतर ते मोठे होऊन पांढुरके-तपकिरी होतात आणि पाथीचे शेंडे करपतात.",
+      "kn": "ಎಲೆಗಳ ಮೇಲೆ ಹಳದಿ ಮತ್ತು ಕಂದು ಕಲೆಗಳು, ಎಲೆಯ ತುದಿಯಿಂದ ಒಣಗುವುದು."
+    },
+    "causes": {
+      "en": "Airborne spores released during high moisture periods entering damaged tissues.",
+      "hi": "हवा द्वारा फैलने वाले बीजाणु जो नमी वाले मौसम में रोग फैलाते हैं।",
+      "mr": "वाऱ्यातून पसरणाऱ्या स्टेम्फिलियम बुरशीमुळे.",
+      "kn": "ಗಾಳಿಯಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Crop rotation with non-host crops; wide spacing; avoid night-time sprinkler irrigation.",
+      "hi": "गैर-प्याज फसलों के साथ फसल चक्र अपनाएं; रात में फव्वारा सिंचाई न करें।",
+      "mr": "पिकांची फेरपालट करा; रात्रीच्या वेळी स्प्रिंकलर चालवणे टाळा.",
+      "kn": "ಬೆಳೆ ಪರಿವರ್ತನೆ ಮಾಡಿ, ರಾತ್ರಿ ನೀರು ಹಾಯಿಸಬೇಡಿ."
+    },
+    "control": {
+      "biological": "Spray Pseudomonas fluorescens (5g/L) or Ampelomyces quisqualis.",
+      "chemical": "Spray Azoxystrobin 23% SC @ 1 ml/L or Chlorothalonil 75 WP @ 2 g/L or Iprodione @ 2 g/L.",
+      "en_summary": "Spray Azoxystrobin (1 ml/L) or Chlorothalonil (2 g/L) with sticker.",
+      "hi_summary": "एजोक्सीस्ट्रोबिन (1 मिली/लीटर) या क्लोरोथैलोनिल का छिड़काव करें।",
+      "mr_summary": "ॲझॉक्सीस्ट्रॉबिन (१ मिली/लिटर) किंवा क्लोरोथॅलोनिल/कवच (२ ग्रॅम/लिटर) स्टिकरसह फवारा.",
+      "kn_summary": "ಅಜಾಕ್ಸಿಸ್ಟ್ರೋಬಿನ್ (೧ ಮಿಲಿ/ಲೀ) ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "DOGR Pune",
+      "TNAU Agritech Portal"
+    ]
+  },
+  {
+    "crop": "Wheat",
+    "crop_hi": "गेहूं",
+    "crop_mr": "गहू",
+    "crop_kn": "ಗೋಧಿ",
+    "disease": "Brown / Leaf Rust",
+    "disease_hi": "गेहूं का भूरा रतुआ (भूरा गेरुई)",
+    "disease_mr": "गव्हावरील तांबेरा (तपकिरी तांबेरा)",
+    "disease_kn": "ಗೋಧಿ ಕಂದು ತುಕ್ಕು ರೋಗ",
+    "pathogen": "Puccinia triticina",
+    "favorable_weather": {
+      "temp_min": 15,
+      "temp_max": 25,
+      "humidity_min": 85,
+      "rainfall_favorable": true,
+      "description": "Mild temperatures (15-25°C) with morning dew and high humidity."
+    },
+    "primary_causes": {
+      "en": [
+        "Airborne rust spores blown from southern hills by seasonal wind depressions.",
+        "Dew formation on leaves for at least 4 hours with temperatures 15-25°C."
+      ],
+      "hi": [
+        "पहाड़ी क्षेत्रों से हवा के साथ उड़कर आने वाले गेरुई के बीजाणु।",
+        "सुबह के समय पत्तियों पर 4 घंटे से अधिक ओस का रहना और अनुकूल तापमान।"
+      ],
+      "mr": [
+        "वाऱ्याच्या प्रवाहामुळे दक्षिण भागातील टेकड्यांवरून हवेतून उडून येणारे बीजाणू.",
+        "गव्हाच्या पानांवर सलग ४ तासांपेक्षा जास्त वेळ दवाचे थेंब राहणे व १५-२५° से. तापमान असणे."
+      ],
+      "kn": [
+        "ಗಾಳಿಯ ಮೂಲಕ ಬರುವ ರೋಗಾಣು ಬೀಜಕಗಳು.",
+        "ಎಲೆಗಳ ಮೇಲೆ ಮಂಜಿನ ಹನಿಗಳು ನಿಲ್ಲುವುದು."
+      ]
+    },
+    "symptoms": {
+      "en": "Small, round to oval, orange-brown powdery pustules scattered randomly on upper leaf blades. Pustules burst to release brown dust.",
+      "hi": "पत्तियों की ऊपरी सतह पर नारंगी-भूरे रंग के छोटे-छोटे दानेदार उभरे हुए चकत्ते। छूने पर हाथ में भूरा पाउडर लगता है।",
+      "mr": "पानांच्या वरच्या भागावर नारंगी-तपकिरी रंगाचे बारीक गोल पुरळ दिसतात. पानांना हात लावल्यास बोटांवर तांबूस पावडर लागते.",
+      "kn": "ಎಲೆಗಳ ಮೇಲೆ ಕಿತ್ತಳೆ-ಕಂದು ಬಣ್ಣದ ಪುಡಿ ಕಲೆಗಳು."
+    },
+    "causes": {
+      "en": "Puccinia triticina urediniospores disseminated over hundreds of kilometres by wind.",
+      "hi": "हवा के जरिए लंबी दूरी तय करने वाले पक्सीनिया कवक के बीजाणु।",
+      "mr": "हवेतून शेकडो किलोमीटर प्रवास करणाऱ्या पुक्सिनिया बुरशीमुळे.",
+      "kn": "ಗಾಳಿಯಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Sow rust-resistant varieties like HD-2967, PBW-550, MACS-6222; avoid late sowing.",
+      "hi": "रोग प्रतिरोधी किस्में ही बोएं; समय पर बुवाई करें।",
+      "mr": "तांबेरा प्रतिकारक सुधारित वाण (उदा. एमएसीएस-६२२२, फुले समाधान) पेरा; उशिरा पेरणी टाळा.",
+      "kn": "ರೋಗ ನಿರೋಧಕ ತಳಿಗಳನ್ನು ಬಳಸಿ, ತಡವಾಗಿ ಬಿತ್ತನೆ ಮಾಡಬೇಡಿ."
+    },
+    "control": {
+      "biological": "Seed treatment with Trichoderma viride @ 4g/kg seed.",
+      "chemical": "Spray Propiconazole 25% EC (Tilt @ 1 ml/L) or Tebuconazole 250 EC @ 1 ml/L or Mancozeb 75 WP @ 2.5 g/L upon noticing first pustules.",
+      "en_summary": "Spray Propiconazole 25 EC (Tilt @ 1 ml/L) at first notice of rust pustules.",
+      "hi_summary": "रतुआ दिखने पर तुरंत टिल्ट (प्रोपिकोनाजोल 1 मिली/लीटर) का छिड़काव करें।",
+      "mr_summary": "तांबेऱ्याचे फोड दिसताच टिल्ट/प्रोपिकोनाझोल (१ मिली/लिटर) किंवा मँकोझेब (२.५ ग्रॅम/लिटर) फवारा.",
+      "kn_summary": "ಪ್ರೊಪಿಕೊನಜೋಲ್ (೧ ಮಿಲಿ/ಲೀ) ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "ICAR-IIWBR Karnal",
+      "TNAU Agritech Portal"
+    ]
+  },
+  {
+    "crop": "Wheat",
+    "crop_hi": "गेहूं",
+    "crop_mr": "गहू",
+    "crop_kn": "ಗೋಧಿ",
+    "disease": "Yellow / Stripe Rust",
+    "disease_hi": "पीला रतुआ (स्ट्राइप रस्ट)",
+    "disease_mr": "पिवळा तांबेरा (स्ट्राइप रस्ट)",
+    "disease_kn": "ಹಳದಿ ತುಕ್ಕು ರೋಗ",
+    "pathogen": "Puccinia striiformis",
+    "favorable_weather": {
+      "temp_min": 8,
+      "temp_max": 18,
+      "humidity_min": 90,
+      "rainfall_favorable": true,
+      "description": "Cool, cold weather (8-18°C) with persistent fog or rain showers."
+    },
+    "primary_causes": {
+      "en": [
+        "Very cool conditions (8-18°C) and thick morning fog during winter.",
+        "Wind-borne spores transported from northern foothills and mountains."
+      ],
+      "hi": [
+        "अत्यधिक ठंड (8-18°C) और सर्दियों में लगातार घना कोहरा रहना।",
+        "पहाड़ी क्षेत्रों से हवा के साथ आने वाले बीजाणु।"
+      ],
+      "mr": [
+        "कडाक्याची थंडी (८-१८° से.) आणि सकाळी पडणारे दाट धुके.",
+        "उत्तरेकडील थंड वाऱ्यासोबत वाहून येणारे पिवळ्या तांबेऱ्याचे बीजाणू."
+      ],
+      "kn": [
+        "ಅತಿಯಾದ ಚಳಿ (೮-೧೮°C) ಮತ್ತು ದಟ್ಟವಾದ ಮಂಜು.",
+        "ತಣ್ಣನೆಯ ಗಾಳಿಯಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+      ]
+    },
+    "symptoms": {
+      "en": "Yellow, powdery pustules arranged in distinct narrow parallel linear stripes along leaf veins. Hand turns yellow upon touching leaf.",
+      "hi": "पत्तियों की नसों के समानांतर पीली रेखाओं (धारियों) में जमे हुए पाउडर जैसे दाने। छूने पर हाथ पीला हो जाता है।",
+      "mr": "पानांच्या शिरांना समांतर सरळ रेषेत पिवळ्या रंगाचे पट्टे (पिवळे पुरळ) दिसतात. पानाला स्पर्श केल्यास बोटांना पिवळी हळदीसारखी पावडर लागते.",
+      "kn": "ಎಲೆಗಳ ಮೇಲೆ ಹಳದಿ ಬಣ್ಣದ ಗೆರೆಗಳಂತಹ ಕಲೆಗಳು."
+    },
+    "causes": {
+      "en": "Puccinia striiformis fungal spores adapted to low temperatures.",
+      "hi": "ठंडे मौसम में तेजी से बढ़ने वाले पक्सीनिया स्ट्रीइफॉर्मिस के बीजाणु।",
+      "mr": "कमी तापमानात वेगाने वाढणारी पुक्सिनिया स्ट्रीफॉर्मिस बुरशी.",
+      "kn": "ತಂಪಾದ ಹವಾಗುಣದಲ್ಲಿ ಬೆಳೆಯುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Plant yellow rust-resistant wheat varieties; monitor fields closely during cold spells.",
+      "hi": "पीला रतुआ प्रतिरोधी किस्में लगाएं; कोहरे के दिनों में नियमित निगरानी करें।",
+      "mr": "पिवळ्या तांबेऱ्यास प्रतिकारक वाण लावा; थंडीच्या दिवसांत शेताची नियमित पाहणी करा.",
+      "kn": "ರೋಗ ನಿರೋಧಕ ತಳಿಗಳನ್ನು ಬಳಸಿ."
+    },
+    "control": {
+      "biological": "Seed treatment with Trichoderma viride @ 4g/kg seed.",
+      "chemical": "Immediately spray Propiconazole 25% EC (Tilt @ 1 ml/L) or Tebuconazole @ 1 ml/L in 200 L water per acre.",
+      "en_summary": "Spray Propiconazole 25 EC (1 ml/L) immediately upon observing yellow stripes.",
+      "hi_summary": "पीली धारियां दिखते ही तुरंत टिल्ट (प्रोपिकोनाजोल 1 मिली/लीटर) का छिड़काव करें।",
+      "mr_summary": "पिवळ्या पट्ट्या दिसताच ताबडतोब टिल्ट/प्रोपिकोनाझोल (१ मिली/लिटर) फवारा.",
+      "kn_summary": "ಪ್ರೊಪಿಕೊನಜೋಲ್ (೧ ಮಿಲಿ/ಲೀ) ತಕ್ಷಣ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "ICAR-IIWBR Karnal",
+      "TNAU Agritech Portal"
+    ]
+  },
+  {
+    "crop": "Rice",
+    "crop_hi": "चावल / धान",
+    "crop_mr": "भात (धान)",
+    "crop_kn": "ಭತ್ತ (ಅಕ್ಕಿ)",
+    "disease": "Rice Blast",
+    "disease_hi": "धान का झोंका रोग (ब्लास्ट)",
+    "disease_mr": "भातावरील करपा (ब्लास्ट रोग)",
+    "disease_kn": "ಭತ್ತದ ಕುತ್ತಿಗೆ ಬೆಂಕಿ ರೋಗ (ಬ್ಲಾಸ್ಟ್)",
+    "pathogen": "Magnaporthe oryzae / Pyricularia oryzae",
+    "favorable_weather": {
+      "temp_min": 20,
+      "temp_max": 28,
+      "humidity_min": 90,
+      "rainfall_favorable": true,
+      "description": "Continuous overcast weather with high humidity (>90%) and night temperatures 20-25°C."
+    },
+    "primary_causes": {
+      "en": [
+        "Airborne conidia thriving during cloudy rainy weather and heavy night dew.",
+        "Excessive use of nitrogenous fertilizer (urea) making plant tissues lush and susceptible."
+      ],
+      "hi": [
+        "बादल छाए रहने और रात में भारी ओस के समय हवा में कवक बीजाणुओं का फैलाव।",
+        "यूरिया (नाइट्रोजन) खाद का अत्यधिक उपयोग जिससे पत्तियां कोमल होकर रोग की चपेट में आती हैं।"
+      ],
+      "mr": [
+        "ढगाळ, पावसाळी वातावरण आणि रात्री पडणाऱ्या दाट दवबिंदूंमुळे बुरशीची वाढ होणे.",
+        "युरियाचा (नत्र) गरजेपेक्षा जास्त वापर केल्यामुळे झाडाची पाने नाजूक होऊन बुरशी सहज आत शिरणे."
+      ],
+      "kn": [
+        "ಮೋಡ ಕವಿದ ವಾತಾವರಣ ಮತ್ತು ಮಂಜು.",
+        "ಯೂರಿಯಾ ಗೊಬ್ಬರದ ಅತಿಯಾದ ಬಳಕೆ."
+      ]
+    },
+    "symptoms": {
+      "en": "Spindle-shaped (eye-shaped) spots with greyish-white centers and dark brown margins on leaves. Nodes rot and blacken (node blast); panicle necks rot and snap, leaving chaffy empty grains (neck blast).",
+      "hi": "पत्तियों पर आंख के आकार के धब्बे जिनके बीच में सफेद-राखाड़ी और किनारे भूरे होते हैं। बाली की गर्दन काली पड़कर टूट जाती है (नेक ब्लास्ट)।",
+      "mr": "पानांवर डोळ्यासारखे किंवा चाकूसारखे मधोमध राखाडी व काठ लालसर-तपकिरी असणारे डाग पडतात. लोंबीची मान काळी पडून लोंब्या मोडतात व दाणे भरत नाहीत (मानमोडी करपा).",
+      "kn": "ಎಲೆಗಳ ಮೇಲೆ ಕಣ್ಣಿನ ಆಕಾರದ ಕಲೆಗಳು ಮತ್ತು ತೆನೆ ಕುತ್ತಿಗೆ ಮುರಿದು ಬೀಳುವುದು."
+    },
+    "causes": {
+      "en": "Pyricularia oryzae fungus dispersed by wind and splashing water in humid flooded paddies.",
+      "hi": "हवा और पानी से फैलने वाला पायरीकुलेरिया कवक।",
+      "mr": "हवेतून आणि पावसाच्या थेंबांतून पसरणाऱ्या बुरशीमुळे.",
+      "kn": "ಗಾಳಿ ಮತ್ತು ನೀರಿನಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Avoid excessive urea; apply split doses of potassium and silicon; cultivate resistant varieties.",
+      "hi": "यूरिया का संतुलित प्रयोग करें; पोटाश का प्रयोग करें; प्रतिरोधी किस्में लगाएं।",
+      "mr": "युरियाचा समतोल वापर करा; पालाश आणि सिलिकॉन खतांचा वापर करा; प्रतिकारक वाण निवडा.",
+      "kn": "ಯೂರಿಯಾ ಕಡಿಮೆ ಬಳಸಿ, ಪೊಟ್ಯಾಷ್ ಗೊಬ್ಬರ ನೀಡಿ."
+    },
+    "control": {
+      "biological": "Seed treatment with Pseudomonas fluorescens @ 10g/kg; spray foliar bio-formulations.",
+      "chemical": "Spray Tricyclazole 75% WP (Beam @ 0.6 g/L) or Isoprothiolane 40% EC @ 1.5 ml/L or Kasugamycin @ 2 ml/L or Azoxystrobin @ 1 ml/L.",
+      "en_summary": "Spray Tricyclazole 75 WP (0.6 g/L) or Isoprothiolane (1.5 ml/L) at booting and panicle emergence.",
+      "hi_summary": "ट्राइसाइक्लाजोल 75 WP (0.6 ग्राम/लीटर) या आइसोप्रोपियोलेन का छिड़काव करें।",
+      "mr_summary": "ट्रायसायक्लाझोल (बीम ०.६ ग्रॅम/लिटर) किंवा आयसोप्रोथिओलेन (१.५ मिली/लिटर) लोंबी बाहेर पडताना फवारा.",
+      "kn_summary": "ಟ್ರೈಸೈಕ್ಲಾಜೋಲ್ (೦.೬ ಗ್ರಾಂ/ಲೀ) ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "ICAR-NRRI Cuttack",
+      "TNAU Agritech Portal"
+    ]
+  },
+  {
+    "crop": "Rice",
+    "crop_hi": "चावल / धान",
+    "crop_mr": "भात (धान)",
+    "crop_kn": "ಭತ್ತ (ಅಕ್ಕಿ)",
+    "disease": "Bacterial Leaf Blight (BLB)",
+    "disease_hi": "जीवाणु पत्ती झुलसा",
+    "disease_mr": "भातावरील जिवाणू करपा (बीएलबी)",
+    "disease_kn": "ಬ್ಯಾಕ್ಟೀರಿಯಲ್ ಎಲೆ ಕರಕಲು ರೋಗ",
+    "pathogen": "Xanthomonas oryzae pv. oryzae",
+    "favorable_weather": {
+      "temp_min": 25,
+      "temp_max": 34,
+      "humidity_min": 85,
+      "rainfall_favorable": true,
+      "description": "High temperature, continuous rain, strong winds, and deep standing water."
+    },
+    "primary_causes": {
+      "en": [
+        "Strong winds with driving rain damaging leaf tips and creating entry wounds.",
+        "Infected irrigation drainage water flowing from field to field."
+      ],
+      "hi": [
+        "तेज हवा और बारिश से पत्तियों का कटना जिससे जीवाणु अंदर घुसते हैं।",
+        "एक खेत से दूसरे खेत में बहने वाला संक्रमित सिंचाई का पानी।"
+      ],
+      "mr": [
+        "वादळी वारा आणि पावसामुळे पानांच्या कडा फाटून जिवाणूंना प्रवेश मिळणे.",
+        "एका खाचरातून दुसऱ्या खाचरात वाहून जाणारे रोगट पाटाचे पाणी."
+      ],
+      "kn": [
+        "ಬಿರುಗಾಳಿ ಮತ್ತು ಮಳೆಯಿಂದ ಎಲೆಗಳಿಗೆ ಗಾಯವಾಗುವುದು.",
+        "ಹೊಲದಿಂದ ಹೊಲಕ್ಕೆ ಹರಿಯುವ ಸೋಂಕಿತ ನೀರು."
+      ]
+    },
+    "symptoms": {
+      "en": "Water-soaked lesions on leaf margins turning wavy yellow-white stripes drying from tips down. Tiny amber bacterial ooze droplets appear on young lesions in morning.",
+      "hi": "पत्तियों के किनारों पर लहरदार पीले-सफेद पट्टे जो ऊपर से नीचे सूखते हैं। सुबह के समय पत्तियों पर जीवाणु की बूंदें दिखती हैं।",
+      "mr": "पानांच्या कडांवरून आत येणारे नागमोडी पिवळसर-पांढरे पट्टे. पाने वरून खाली वाळत जातात. सकाळी पानाच्या कडेवर जिवाणूंचे पिवळसर थेंब (ऊझ) दिसतात.",
+      "kn": "ಎಲೆಗಳ ಅಂಚಿನಲ್ಲಿ ಹಳದಿ-ಬಿಳಿ ಗೆರೆಗಳು ಮತ್ತು ಎಲೆ ಒಣಗುವುದು."
+    },
+    "causes": {
+      "en": "Xanthomonas bacteria entering through hydathodes and leaf wounds.",
+      "hi": "पत्तियों के छिद्रों और घावों से प्रवेश करने वाले जीवाणु।",
+      "mr": "पानावरील सूक्ष्म जखमांमधून आत शिरणारे झँथोमोनास जिवाणू.",
+      "kn": "ಗಾಯಗಳ ಮೂಲಕ ಒಳನುಗ್ಗುವ ಬ್ಯಾಕ್ಟೀರಿಯಾ."
+    },
+    "prevention": {
+      "en": "Avoid clipping seedling tips at transplanting; drain standing water; apply balanced potash.",
+      "hi": "रोपाई के समय पौधों की नोक न काटें; खेत से पानी निकालें; पोटाश का प्रयोग करें।",
+      "mr": "रोपे लावताना पानांचे शेंडे कापू नका; शेतातून जास्तीचे पाणी काढून टाका; पालाश खत योग्य प्रमाणात द्या.",
+      "kn": "ನಾಟಿ ಮಾಡುವಾಗ ಎಲೆಯ ತುದಿಗಳನ್ನು ಕತ್ತರಿಸಬೇಡಿ."
+    },
+    "control": {
+      "biological": "Seed treatment with Pseudomonas fluorescens @ 10g/kg; spray foliar bio-agents.",
+      "chemical": "Spray Copper Oxychloride 50 WP @ 2.5 g/L + Streptocycline @ 1g in 10L water.",
+      "en_summary": "Spray Copper Oxychloride (2.5 g/L) + Streptocycline (1g in 10L) at 10-day intervals.",
+      "hi_summary": "कॉपर ऑक्सीक्लोराइड (2.5 ग्राम) + स्ट्रेप्टोसाइक्लिन (1 ग्राम प्रति 10 लीटर) का छिड़काव करें।",
+      "mr_summary": "कॉपर ऑक्सिक्लोराईड (२.५ ग्रॅम) + स्ट्रेप्टोसायक्लिन (१ ग्रॅम प्रति १० लिटर पाणी) फवारा.",
+      "kn_summary": "ಕಾಪರ್ ಆಕ್ಸಿಕ್ಲೋರೈಡ್ ಮತ್ತು ಸ್ಟ್ರೆಪ್ಟೋಸೈಕ್ಲಿನ್ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "ICAR-NRRI Cuttack",
+      "TNAU Agritech Portal"
+    ]
+  },
+  {
+    "crop": "Banana",
+    "crop_hi": "केला",
+    "crop_mr": "केळी",
+    "crop_kn": "ಬಾಳೆಹಣ್ಣು",
+    "disease": "Sigatoka Leaf Spot",
+    "disease_hi": "सिगाटोका पर्ण धब्बा रोग",
+    "disease_mr": "केळीवरील सिगाटोका करपा (पानावरील ठिपके)",
+    "disease_kn": "ಬಾಳೆ ಸಿಗಾಟೋಕ ಎಲೆ ಕಲೆ ರೋಗ",
+    "pathogen": "Mycosphaerella musicola (Yellow) / Mycosphaerella fijiensis (Black)",
+    "favorable_weather": {
+      "temp_min": 23,
+      "temp_max": 30,
+      "humidity_min": 85,
+      "rainfall_favorable": true,
+      "description": "Tropical humid conditions, high rainfall, and continuous leaf wetness."
+    },
+    "primary_causes": {
+      "en": [
+        "Ascospores spread by wind currents and conidia splashed by monsoon rain drops.",
+        "Poor plantation drainage and overcrowded spacing keeping humidity above 85%."
+      ],
+      "hi": [
+        "हवा और बारिश की बौछारों से पत्तियों पर फैलने वाले बीजाणु।",
+        "खेत में जलभराव और घनी रोपाई के कारण अत्यधिक आर्द्रता।"
+      ],
+      "mr": [
+        "पावसाचे थेंब आणि वाऱ्यामुळे बुरशीचे बीजाणू पानांवर उडणे.",
+        "बागेत पाण्याचा निचरा न होणे आणि अतिशय दाट लागवडीमुळे हवा कोंडणे."
+      ],
+      "kn": [
+        "ಗಾಳಿ ಮತ್ತು ಮಳೆಯ ಹನಿಗಳಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರ.",
+        "ದಟ್ಟವಾದ ನಾಟಿ ಮತ್ತು ನೀರು ನಿಲ್ಲುವುದು."
+      ]
+    },
+    "symptoms": {
+      "en": "Tiny chlorotic yellowish streaks on leaves that enlarge into spindle-shaped brown-black spots with sunken ash-grey centers and distinct yellow haloes. Leaves dry and collapse prematurely, reducing bunch size.",
+      "hi": "पत्तियों पर पीले-भूरे रंग की धारियां जो बाद में बड़े काले धब्बे बन जाती हैं जिनके बीच का हिस्सा राख जैसा हो जाता है। पत्तियां सूखकर लटक जाती हैं।",
+      "mr": "पानांवर सुरुवातीला पिवळसर-तपकिरी रेषा दिसतात, नंतर त्या मोठ्या होऊन मध्यभागी राखाडी व कडा काळ्या असणारे डाग तयार होतात. पाने जळून लोंबकळतात आणि घडाची वाढ थांबते.",
+      "kn": "ಎಲೆಗಳ ಮೇಲೆ ಕಂದು-ಕಪ್ಪು ಕಲೆಗಳು ಮತ್ತು ಎಲೆಗಳು ಒಣಗಿ ಜೋತು ಬೀಳುವುದು."
+    },
+    "causes": {
+      "en": "Mycosphaerella fungal spores penetrating leaf stomata during wet periods.",
+      "hi": "नम मौसम में पत्तियों के रंध्रों में प्रवेश करने वाले कवक बीजाणु।",
+      "mr": "ओल्या पानाच्या छिद्रांमधून आत शिरून वाढणारी बुरशी.",
+      "kn": "ಎಲೆಗಳ ರಂಧ್ರಗಳ ಮೂಲಕ ಪ್ರವೇಶಿಸುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "De-leafing of infected dried leaves and burning outside orchard; improve drainage ditches; practice proper plant spacing (1.8x1.8m).",
+      "hi": "सूखी और रोगी पत्तियों को काटकर नष्ट करें; जल निकासी नालियां बनाएं; पर्याप्त दूरी रखें।",
+      "mr": "रोगट वाळलेली पाने वेळोवेळी कापून बागेबाहेर नेऊन जाळा; चर खोदून पाण्याचा निचरा सुधारा; योग्य अंतर ठेवा.",
+      "kn": "ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ಕತ್ತರಿಸಿ ಸುಟ್ಟುಹಾಕಿ, ನೀರು ನಿಲ್ಲದಂತೆ ನೋಡಿಕೊಳ್ಳಿ."
+    },
+    "control": {
+      "biological": "Spray mineral oil / agricultural spray oil (Banole @ 1%) with bio-fungicide Bacillus subtilis.",
+      "chemical": "Spray Propiconazole 25 EC (1 ml/L) or Difenoconazole @ 0.5 ml/L mixed with mineral oil (10 ml/L) or Carbendazim @ 1 g/L.",
+      "en_summary": "Spray Propiconazole (1 ml/L) mixed with mineral spray oil (1%) or Carbendazim.",
+      "hi_summary": "प्रोपिकोनाजोल (1 मिली/लीटर) को मिनरल ऑयल के साथ मिलाकर पत्तियों पर छिड़कें।",
+      "mr_summary": "टिल्ट/प्रोपिकोनाझोल (१ मिली/लिटर) सोबत मिनरल ऑईल (१० मिली/लिटर) मिसळून फवारा किंवा स्कोर फवारा.",
+      "kn_summary": "ಪ್ರೊಪಿಕೊನಜೋಲ್ ಅನ್ನು ಮಿನರಲ್ ಆಯಿಲ್ ಜೊತೆ ಬೆರೆಸಿ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "NRC Banana Tiruchirappalli",
+      "TNAU Agritech Portal"
+    ]
+  },
+  {
+    "crop": "Apple",
+    "crop_hi": "सेब",
+    "crop_mr": "सफरचंद",
+    "crop_kn": "ಸೇಬು",
+    "disease": "Apple Scab",
+    "disease_hi": "सेब का स्केब रोग (खरुज)",
+    "disease_mr": "सफरचंदावरील खरुज (स्कॅब)",
+    "disease_kn": "ಸೇಬು ಕಜ್ಜಿ ರೋಗ (ಸ್ಕ್ಯಾಬ್)",
+    "pathogen": "Venturia inaequalis",
+    "favorable_weather": {
+      "temp_min": 15,
+      "temp_max": 24,
+      "humidity_min": 85,
+      "rainfall_favorable": true,
+      "description": "Continuous wet leaf surface for at least 9 hours in temperate climate."
+    },
+    "primary_causes": {
+      "en": [
+        "Ascospores shooting into air from overwintered leaves on orchard floor during spring rains.",
+        "Free moisture on apple foliage and fruit surface persisting for more than 9 hours."
+      ],
+      "hi": [
+        "जमीन पर गिरी पुरानी सूखी पत्तियों से वसंत ऋतु की बारिश में निकलने वाले बीजाणु।",
+        "पत्तियों और फलों पर 9 घंटे से अधिक समय तक पानी का टिकना।"
+      ],
+      "mr": [
+        "बागेतील जमिनीवरील जुन्या गळलेल्या पानांमधून वसंत ऋतूत हवेत उडणारे बुरशीचे बीजाणू.",
+        "पानांवर व फळांवर सलग ९ तासांपेक्षा जास्त वेळ ओलावा राहणे."
+      ],
+      "kn": [
+        "ಉದುರಿದ ಹಳೆಯ ಎಲೆಗಳಿಂದ ವಸಂತಕಾಲದಲ್ಲಿ ಹರಡುವ ಶಿಲೀಂಧ್ರ.",
+        "ಎಲೆಗಳ ಮೇಲೆ ದೀರ್ಘಕಾಲ ತೇವಾಂಶ ಇರುವುದು."
+      ]
+    },
+    "symptoms": {
+      "en": "Olive-green, velvety circular spots on leaves turning brown and corky. Developing fruits develop deformed, dark, scabby lesions that crack open, rendering fruit unmarketable.",
+      "hi": "पत्तियों पर जैतून जैसे हरे मखमली धब्बे जो बाद में भूरे और खुरदुरे हो जाते हैं। फलों पर काले धब्बे और दरारें।",
+      "mr": "पानांवर हिरवट-तपकिरी रंगाचे मखमली डाग पडतात. फळांवर काळे खरुजेसारखे चट्टे पडून फळे तडकतात व विद्रूप होतात.",
+      "kn": "ಎಲೆ ಮತ್ತು ಹಣ್ಣುಗಳ ಮೇಲೆ ಕಪ್ಪು ಗಾಯಗಳು ಮತ್ತು ಬಿರುಕುಗಳು."
+    },
+    "causes": {
+      "en": "Venturia inaequalis ascospores released from fallen leaves in spring during rains.",
+      "hi": "जमीन पर गिरी पत्तियों से वसंत ऋतु में बारिश के दौरान निकलने वाले बीजाणु।",
+      "mr": "जमिनीवरील जुन्या पानांमधून वसंत ऋतूत हवेत उडणारे बीजाणू.",
+      "kn": "ವಸಂತಕಾಲದಲ್ಲಿ ಹರಡುವ ಶಿಲೀಂಧ್ರ."
+    },
+    "prevention": {
+      "en": "Orchard sanitation by clearing fallen leaves; apply 5% urea spray on orchard floor before leaf fall to accelerate leaf decomposition.",
+      "hi": "बगीचे की सफाई रखें, गिरी पत्तियों को नष्ट करें; पत्तियों के सड़ने के लिए यूरिया का छिड़काव करें।",
+      "mr": "बागेची स्वच्छता राखा, गळलेली पाने गोळा करून नष्ट करा; युरिया ५% फवारून जमिनीवरील पाने कुजवा.",
+      "kn": "ಉದುರಿದ ಎಲೆಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ, ಯೂರಿಯಾ ಸಿಂಪಡಿಸಿ."
+    },
+    "control": {
+      "biological": "Spray Bacillus subtilis (Serenade) or bio-sulphur formulations.",
+      "chemical": "Spray Captan 50 WP @ 2.5 g/L or Dodine 65 WP @ 0.75 g/L or Difenoconazole @ 0.3 ml/L or Mancozeb @ 2.5 g/L at petal fall stage.",
+      "en_summary": "Spray Captan (2.5 g/L) or Difenoconazole (0.3 ml/L) or Dodine at pink bud and petal fall stages.",
+      "hi_summary": "कैप्टन (2.5 ग्राम/लीटर) या डाइफेनोकोनाजोल (0.3 मिली/लीटर) का छिड़काव करें।",
+      "mr_summary": "कॅप्टन (२.५ ग्रॅम/लिटर) किंवा डिफेनोकोनाझोल (०.३ मिली/लिटर) कळीच्या व पाकळी गळण्याच्या अवस्थेत फवारा.",
+      "kn_summary": "ಕ್ಯಾಪ್ಟಾನ್ ಅಥವಾ ಡೈಫೆನೊಕೊನಜೋಲ್ ಸಿಂಪಡಿಸಿ."
+    },
+    "sources": [
+      "TNAU Agritech Portal",
+      "YSP UHF Solan",
+      "Koppert Disease Control"
+    ]
+  }
+]
