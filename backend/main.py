@@ -4,8 +4,10 @@ Deep Learning Plant Disease Detection, Weather-Driven Risk Advisory, and Multili
 """
 
 import os
+import io
 import json
 from typing import List, Optional
+from PIL import Image
 from fastapi import FastAPI, File, UploadFile, Query, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
