@@ -100,37 +100,92 @@ class AgriculturalRAGAgent:
             print(f"[!] ChromaDB init notice: {e}. Vector search will use high-efficiency in-memory fallback.")
 
     def search_passages(self, query: str, crop: Optional[str] = None, n_results: int = 4) -> List[Dict[str, Any]]:
-        """Retrieves most relevant agricultural passages from ChromaDB."""
-        results = []
-        if self.collection:
-            try:
-                where_filter = {"crop": crop.lower()} if crop else None
-                query_res = self.collection.query(
-                    query_texts=[query],
-                    n_results=min(n_results, self.collection.count() or n_results),
-                    where=where_filter
-                )
-                if query_res and "documents" in query_res and query_res["documents"]:
-                    docs = query_res["documents"][0]
-                    metas = query_res["metadatas"][0] if "metadatas" in query_res else [{}] * len(docs)
-                    for d, m in zip(docs, metas):
-                        results.append({"text": d, "metadata": m})
-            except Exception as e:
-                print(f"[!] ChromaDB query error: {e}")
+        """
+        High-efficiency multilingual semantic keyword retrieval over curated agricultural disease dossiers.
+        Avoids heavy neural embedding runtime spikes on resource-constrained cloud servers (512MB RAM).
+        """
+        if not self.kb_data:
+            return []
 
-        # Fallback keyword match from KB data if vector search returns empty
-        if not results and self.kb_data:
-            q_lower = query.lower()
-            for entry in self.kb_data:
-                c = entry.get("crop", "").lower()
-                d = entry.get("disease", "").lower()
-                if (crop and crop.lower() in c) or c in q_lower or d in q_lower or "disease" in q_lower:
-                    results.append({
-                        "text": f"Crop: {entry.get('crop')}\nDisease: {entry.get('disease')}\nSymptoms: {entry.get('symptoms',{}).get('en')}\nControl: {entry.get('control',{}).get('biological')} {entry.get('control',{}).get('chemical')}",
-                        "metadata": {"crop": c, "disease": d, "source": "TNAU / Koppert Agritech"}
-                    })
-                    if len(results) >= n_results:
-                        break
+        import re
+        q_lower = query.lower()
+        q_tokens = set(re.findall(r'[\w\u0900-\u097F\u0C80-\u0CFF]+', q_lower))
+
+        scored_entries = []
+        for entry in self.kb_data:
+            c_en = entry.get("crop", "").lower()
+            c_hi = entry.get("crop_hi", "").lower()
+            c_mr = entry.get("crop_mr", "").lower()
+            c_kn = entry.get("crop_kn", "").lower()
+
+            d_en = entry.get("disease", "").lower()
+            d_hi = entry.get("disease_hi", "").lower()
+            d_mr = entry.get("disease_mr", "").lower()
+            d_kn = entry.get("disease_kn", "").lower()
+
+            score = 0
+            # 1. Target crop filter / matching
+            if crop:
+                cr_low = crop.lower()
+                if cr_low in c_en or c_en in cr_low or cr_low in c_mr or cr_low in c_hi:
+                    score += 30
+
+            # 2. Crop mention in user query
+            crop_matched = any(
+                (c and c in q_lower)
+                for c in [c_en, c_hi, c_mr, c_kn]
+            )
+            if crop_matched:
+                score += 25
+
+            # 3. Disease name mention
+            disease_matched = any(
+                (d and (d in q_lower or any(tok in d for tok in q_tokens if len(tok) >= 3)))
+                for d in [d_en, d_hi, d_mr, d_kn]
+            )
+            if disease_matched:
+                score += 35
+
+            # 4. Token overlap with symptoms, causes, control
+            searchable_fields = [
+                str(entry.get("symptoms", {})),
+                str(entry.get("causes", {})),
+                str(entry.get("control", {})),
+                str(entry.get("pathogen", ""))
+            ]
+            combined_desc = " ".join(searchable_fields).lower()
+            for tok in q_tokens:
+                if len(tok) >= 3 and tok in combined_desc:
+                    score += 5
+
+            if score > 0:
+                scored_entries.append((score, entry))
+
+        # Sort descending by relevance score
+        scored_entries.sort(key=lambda x: x[0], reverse=True)
+        top_candidates = [e for _, e in scored_entries[:n_results]]
+
+        # If no specific matches, fall back to matching by crop or top general entries
+        if not top_candidates and crop:
+            top_candidates = [e for e in self.kb_data if crop.lower() in e.get("crop", "").lower()][:n_results]
+        if not top_candidates:
+            top_candidates = self.kb_data[:n_results]
+
+        results = []
+        for entry in top_candidates:
+            c = entry.get("crop", "")
+            d = entry.get("disease", "")
+            sym_en = entry.get("symptoms", {}).get("en", "")
+            ctrl_bio = entry.get("control", {}).get("biological", "")
+            ctrl_chem = entry.get("control", {}).get("chemical", "")
+            results.append({
+                "text": f"Crop: {c} | Disease: {d}\nSymptoms: {sym_en}\nBiological Control: {ctrl_bio}\nChemical Control: {ctrl_chem}",
+                "metadata": {
+                    "crop": c,
+                    "disease": d,
+                    "source": "TNAU Agritech Portal & Koppert Biological Systems"
+                }
+            })
 
         return results
 

@@ -31,9 +31,10 @@ import { translations } from "./translations";
 import { INDIA_LOCATIONS, DEFAULT_LOCATION } from "./locationsData";
 import "./App.css";
 
-const API_BASE =
+const rawApiBase =
   import.meta.env.VITE_API_URL ||
   (window.location.hostname === "localhost" ? "http://127.0.0.1:8000" : `http://${window.location.hostname}:8000`);
+const API_BASE = rawApiBase.replace(/\/+$/, "");
 
 const AVAILABLE_CROPS = [
   { name: "Grape", emoji: "🍇", hi: "अंगूर", mr: "द्राक्ष", kn: "ದ್ರಾಕ್ಷಿ" },
@@ -389,9 +390,15 @@ export default function App() {
           }
         ]);
       } else {
+        const errorDetail =
+          res.status === 404
+            ? "API route not found. Backend URL might have had a routing issue."
+            : res.status === 502 || res.status === 503
+            ? "Backend server is waking up or restarting on Render. Please try again in 20-30 seconds."
+            : "Apologies, could not process request right now. Please verify API keys in .env.";
         setChatMessages((prev) => [
           ...prev,
-          { role: "bot", content: "Apologies, could not process request right now. Please verify API keys in .env." }
+          { role: "bot", content: errorDetail }
         ]);
       }
     } catch (e) {
